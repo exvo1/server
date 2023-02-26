@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+
+	<npc id="60" idTemplate="25309" name="Varka's Hero Shadith" title="Raid Boss">
+		<set name="usingServerSideName" val="false"/>
+		<set name="usingServerSideTitle" val="false"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="17"/>
+		<set name="height" val="47.5"/>
+		<set name="rHand" val="6716"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="RaidBoss"/>
+		<set name="exp" val="3206477"/>
+		<set name="sp" val="835990"/>
+		<set name="hp" val="1200000"/>
+		<set name="mp" val="40"/>
+		<set name="hpRegen" val="2"/>
+		<set name="mpRegen" val="0.9"/>
+		<set name="pAtk" val="8000"/> <!-- 4000 -->
+		<set name="pDef" val="900"/>  <!--800pdef -> fr zeal 50% gear = 2.6k -->
+		<set name="mAtk" val="1000"/>
+		<set name="mDef" val="600"/>  <!--600->700norm 1,5 mc . 1000 mdef -> 460,13 cdl 700,2.4 -->
+		<set name="crit" val="1"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="60"/>
+		<set name="int" val="76"/>
+		<set name="dex" val="73"/>
+		<set name="wit" val="70"/>
+		<set name="con" val="57"/>
+		<set name="men" val="80"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="36"/>
+		<set name="runSpd" val="190"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="true" seedable="false"/>
+
+		<skills>
+			<skill id="4045" level="1"/> <!-- Resist full magic attack -->
+			<skill id="4416" level="8"/> 
+			<skill id="4494" level="1"/> <!-- Raid Boss -->
+			<skill id="4961" level="1"/> <!-- RB LEVEL 79 -->
+			<skill id="4071" level="5"/><!-- Resist Archer --> 
+  			<skill id="4428" level="5"/><!-- Resist Bigsword -->
+			<skill id="4425" level="5"/> <!-- Resist Blunt -->
+			<skill id="4427" level="3"/> <!-- Resist Sword -->
+		</skills>
+		<drops>
+			<!-- farm -->
+			<category id="1">
+				<drop itemid="9500" min="2500" max="3500" chance="1000000"/>	
+			</category>
+			
+			<!-- High ls-->
+			<category id="2">
+				<drop itemid="8752" min="6" max="20" chance="1000000"/>	
+			</category>
+			
+			<!-- top ls-->
+			<category id="3">
+				<drop itemid="8762" min="6" max="12" chance="1000000"/>	
+			</category>
+			
+			<!-- Rep Coin -->
+			<category id="4">
+				<drop itemid="6690" min="1" max="1" chance="250000"/>	
+			</category>
+			
+
+
+			<category id="6">
+				<drop itemid="961" min="1" max="1" chance="1000000"/>
+			</category>
+			<category id="7">
+				<drop itemid="962" min="2" max="2" chance="1000000"/>
+			</category>
+
+			<!-- custom scroll weap -->
+			<category id="10">
+				<drop itemid="19000" min="1" max="1" chance="200000"/> 
+			</category>
+			
+			<!-- custom scroll armor-->
+			<category id="11">
+				<drop itemid="19005" min="1" max="1" chance="300000"/> 
+			</category>
+			
+			<!-- Nobless -->
+			<category id="20">
+				<drop itemid="6673" min="1" max="2" chance="800000"/> 
+			</category>
+			
+		</drops>
+
+	</npc>
+
+	<npc id="61" idTemplate="25315" name="Varka's Chief Horus" title="Raid Boss">
+		<set name="usingServerSideName" val="false"/>
+		<set name="usingServerSideTitle" val="false"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="22"/>
+		<set name="height" val="51"/>
+		<set name="rHand" val="2500"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="RaidBoss"/>
+		<set name="exp" val="3206477"/>
+		<set name="sp" val="835990"/>
+		<set name="hp" val="1200000"/>
+		<set name="mp" val="40"/>
+		<set name="hpRegen" val="2"/>
+		<set name="mpRegen" val="0.9"/>
+		<set name="pAtk" val="8000"/> <!-- 4000 -->
+		<set name="pDef" val="900"/>  <!--800pdef -> fr zeal 50% gear = 2.6k -->
+		<set name="mAtk" val="1000"/>
+		<set name="mDef" val="600"/>  <!--600->700norm 1,5 mc . 1000 mdef -> 460,13 cdl 700,2.4 -->
+		<set name="crit" val="1"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="60"/>
+		<set name="int" val="76"/>
+		<set name="dex" val="73"/>
+		<set name="wit" val="70"/>
+		<set name="con" val="57"/>
+		<set name="men" val="80"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="190"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="true" seedable="false"/>
+		<skills>
+			<skill id="4045" level="1"/> <!-- Resist full magic attack -->
+			<skill id="4416" level="8"/> 
+			<skill id="4494" level="1"/> <!-- Raid Boss -->
+			<skill id="4961" level="1"/> <!-- RB LEVEL 79 -->
+			<skill id="4071" level="5"/><!-- Resist Archer --> 
+  			<skill id="4428" level="5"/><!-- Resist Bigsword -->
+			<skill id="4425" level="3"/>
+			<skill id="4427" level="3"/> <!-- Resist Sword -->
+		</skills>
+		<drops>
+			<!-- farm -->
+			<category id="1">
+				<drop itemid="9500" min="2500" max="3500" chance="1000000"/>	
+			</category>
+			
+			<!-- High ls-->
+			<category id="2">
+				<drop itemid="8752" min="6" max="20" chance="1000000"/>	
+			</category>
+			
+			<!-- top ls-->
+			<category id="3">
+				<drop itemid="8762" min="6" max="12" chance="1000000"/>	
+			</category>
+			
+			<!-- Rep Coin -->
+			<category id="4">
+				<drop itemid="6690" min="1" max="1" chance="250000"/>	
+			</category>
+			
+
+
+			<category id="6">
+				<drop itemid="961" min="1" max="1" chance="1000000"/>
+			</category>
+			<category id="7">
+				<drop itemid="962" min="2" max="2" chance="1000000"/>
+			</category>
+
+			<!-- custom scroll weap -->
+			<category id="10">
+				<drop itemid="19000" min="1" max="1" chance="200000"/> 
+			</category>
+			
+			<!-- custom scroll armor-->
+			<category id="11">
+				<drop itemid="19005" min="1" max="1" chance="300000"/> 
+			</category>
+			
+			<!-- Nobless -->
+			<category id="20">
+				<drop itemid="6673" min="1" max="2" chance="800000"/> 
+			</category>
+			
+	 
+		</drops>
+	</npc>
+
+	<npc id="62" idTemplate="25312" name="Varka's Commander Mos" title="Raid Boss">
+		<set name="usingServerSideName" val="false"/>
+		<set name="usingServerSideTitle" val="false"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="22"/>
+		<set name="height" val="51"/>
+		<set name="rHand" val="2500"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="RaidBoss"/>
+		<set name="exp" val="3206477"/>
+		<set name="sp" val="835990"/>
+		<set name="hp" val="1200000"/>
+		<set name="mp" val="40"/>
+		<set name="hpRegen" val="2"/>
+		<set name="mpRegen" val="0.9"/>
+		<set name="pAtk" val="8000"/> <!-- 4000 -->
+		<set name="pDef" val="900"/>  <!--800pdef -> fr zeal 50% gear = 2.6k -->
+		<set name="mAtk" val="1000"/>
+		<set name="mDef" val="600"/>  <!--600->700norm 1,5 mc . 1000 mdef -> 460,13 cdl 700,2.4 -->
+		<set name="crit" val="1"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="60"/>
+		<set name="int" val="76"/>
+		<set name="dex" val="73"/>
+		<set name="wit" val="70"/>
+		<set name="con" val="57"/>
+		<set name="men" val="80"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="190"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="true" seedable="false"/>
+
+		<skills>
+			<skill id="4045" level="1"/> <!-- Resist full magic attack -->
+			<skill id="4416" level="8"/> 
+			<skill id="4494" level="1"/> <!-- Raid Boss -->
+			<skill id="4961" level="1"/> <!-- RB LEVEL 79 -->
+			<skill id="4071" level="5"/><!-- Resist Archer --> 
+  			<skill id="4428" level="5"/><!-- Resist Bigsword -->
+			<skill id="4425" level="3"/>
+			<skill id="4427" level="3"/> <!-- Resist Sword -->
+		</skills>
+		<drops>
+			<!-- farm -->
+			<category id="1">
+				<drop itemid="9500" min="2500" max="3500" chance="1000000"/>	
+			</category>
+			
+			<!-- High ls-->
+			<category id="2">
+				<drop itemid="8752" min="6" max="20" chance="1000000"/>	
+			</category>
+			
+			<!-- top ls-->
+			<category id="3">
+				<drop itemid="8762" min="6" max="12" chance="1000000"/>	
+			</category>
+			
+			<!-- Rep Coin -->
+			<category id="4">
+				<drop itemid="6690" min="1" max="1" chance="250000"/>	
+			</category>
+			
+
+
+			<category id="6">
+				<drop itemid="961" min="1" max="1" chance="1000000"/>
+			</category>
+			<category id="7">
+				<drop itemid="962" min="2" max="2" chance="1000000"/>
+			</category>
+
+			<!-- custom scroll weap -->
+			<category id="10">
+				<drop itemid="19000" min="1" max="1" chance="200000"/> 
+			</category>
+			
+			<!-- custom scroll armor-->
+			<category id="11">
+				<drop itemid="19005" min="1" max="1" chance="300000"/> 
+			</category>
+			
+			<!-- Nobless -->
+			<category id="20">
+				<drop itemid="6673" min="1" max="2" chance="800000"/> 
+			</category>
+          <!-- event coin -->
+			<category id="35">
+				<drop itemid="6392" min="5" max="5" chance="1000000"/>
+				</category>
+	 
+		</drops>
+	</npc>
+
+	<npc id="63" idTemplate="25514" name="Queen Shyeed" title="Raid Boss">
+		<set name="usingServerSideName" val="false"/>
+		<set name="usingServerSideTitle" val="false"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="45"/>
+		<set name="height" val="50.8"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="RaidBoss"/>
+		<set name="exp" val="3206477"/>
+		<set name="sp" val="835990"/>
+		<set name="hp" val="1200000"/>
+		<set name="mp" val="40"/>
+		<set name="hpRegen" val="2"/>
+		<set name="mpRegen" val="0.9"/>
+		<set name="pAtk" val="8000"/> <!-- 4000 -->
+		<set name="pDef" val="900"/>  <!--800pdef -> fr zeal 50% gear = 2.6k -->
+		<set name="mAtk" val="1000"/>
+		<set name="mDef" val="600"/>  <!--600->700norm 1,5 mc . 1000 mdef -> 460,13 cdl 700,2.4 -->
+		<set name="crit" val="1"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="60"/>
+		<set name="int" val="76"/>
+		<set name="dex" val="73"/>
+		<set name="wit" val="70"/>
+		<set name="con" val="57"/>
+		<set name="men" val="80"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="45"/>
+		<set name="runSpd" val="190"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="true" seedable="false"/>
+
+		<skills>
+			<skill id="4045" level="1"/> <!-- Resist full magic attack -->
+			<skill id="4416" level="8"/> 
+			<skill id="4494" level="1"/> <!-- Raid Boss -->
+			<skill id="4961" level="1"/> <!-- RB LEVEL 79 -->
+			<skill id="4071" level="5"/><!-- Resist Archer --> 
+  			<skill id="4428" level="5"/><!-- Resist Bigsword -->
+			<skill id="4425" level="3"/>
+			<skill id="4427" level="3"/> <!-- Resist Sword -->
+		</skills>
+		<drops>
+			<!-- farm -->
+			<category id="1">
+				<drop itemid="9500" min="2500" max="3500" chance="1000000"/>	
+			</category>
+			
+			<!-- High ls-->
+			<category id="2">
+				<drop itemid="8752" min="6" max="20" chance="1000000"/>	
+			</category>
+			
+			<!-- top ls-->
+			<category id="3">
+				<drop itemid="8762" min="6" max="12" chance="1000000"/>	
+			</category>
+			
+			<!-- Rep Coin -->
+			<category id="4">
+				<drop itemid="6690" min="1" max="1" chance="250000"/>	
+			</category>
+			
+
+
+			<category id="6">
+				<drop itemid="961" min="1" max="1" chance="1000000"/>
+			</category>
+			<category id="7">
+				<drop itemid="962" min="2" max="2" chance="1000000"/>
+			</category>
+
+			<!-- custom scroll weap -->
+			<category id="10">
+				<drop itemid="19000" min="1" max="1" chance="200000"/> 
+			</category>
+			
+			<!-- custom scroll armor-->
+			<category id="11">
+				<drop itemid="19005" min="1" max="1" chance="300000"/> 
+			</category>
+			
+			<!-- Nobless -->
+			<category id="20">
+				<drop itemid="6673" min="1" max="2" chance="800000"/> 
+			</category>
+			
+	 
+		</drops>
+	</npc>
+
+	<npc id="64" idTemplate="25163" name="Roaring Skylancer" title="Raid Boss">
+		<set name="usingServerSideName" val="false"/>
+		<set name="usingServerSideTitle" val="false"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="44"/>
+		<set name="height" val="51.5"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="RaidBoss"/>
+		<set name="exp" val="3206477"/>
+		<set name="sp" val="835990"/>
+		<set name="hp" val="1200000"/>
+		<set name="mp" val="40"/>
+		<set name="hpRegen" val="2"/>
+		<set name="mpRegen" val="0.9"/>
+		<set name="pAtk" val="8000"/> <!-- 4000 -->
+		<set name="pDef" val="900"/>  <!--800pdef -> fr zeal 50% gear = 2.6k -->
+		<set name="mAtk" val="1000"/>
+		<set name="mDef" val="600"/>  <!--600->700norm 1,5 mc . 1000 mdef -> 460,13 cdl 700,2.4 -->
+		<set name="crit" val="1"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="60"/>
+		<set name="int" val="76"/>
+		<set name="dex" val="73"/>
+		<set name="wit" val="70"/>
+		<set name="con" val="57"/>
+		<set name="men" val="80"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="60"/>
+		<set name="runSpd" val="190"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="true" seedable="false"/>
+		<skills>
+			<skill id="4045" level="1"/> <!-- Resist full magic attack -->
+			<skill id="4416" level="8"/> 
+			<skill id="4494" level="1"/> <!-- Raid Boss -->
+			<skill id="4961" level="1"/> <!-- RB LEVEL 79 -->
+			<skill id="4071" level="5"/><!-- Resist Archer --> 
+  			<skill id="4428" level="5"/><!-- Resist Bigsword -->
+			<skill id="4425" level="3"/>
+			<skill id="4427" level="3"/> <!-- Resist Sword -->
+		</skills>
+		<drops>
+			<!-- farm -->
+			<category id="1">
+				<drop itemid="9500" min="2500" max="3500" chance="1000000"/>	
+			</category>
+			
+			<!-- High ls-->
+			<category id="2">
+				<drop itemid="8752" min="6" max="20" chance="1000000"/>	
+			</category>
+			
+			<!-- top ls-->
+			<category id="3">
+				<drop itemid="8762" min="6" max="12" chance="1000000"/>	
+			</category>
+			
+			<!-- Rep Coin -->
+			<category id="4">
+				<drop itemid="6690" min="1" max="1" chance="250000"/>	
+			</category>
+			
+
+
+			<category id="6">
+				<drop itemid="961" min="1" max="1" chance="1000000"/>
+			</category>
+			<category id="7">
+				<drop itemid="962" min="2" max="2" chance="1000000"/>
+			</category>
+
+			<!-- custom scroll weap -->
+			<category id="10">
+				<drop itemid="19000" min="1" max="1" chance="200000"/> 
+			</category>
+			
+			<!-- custom scroll armor-->
+			<category id="11">
+				<drop itemid="19005" min="1" max="1" chance="300000"/> 
+			</category>
+			
+			<!-- Nobless -->
+			<category id="20">
+				<drop itemid="6673" min="1" max="2" chance="800000"/> 
+			</category>
+	 
+		</drops>
+	</npc>
+
+
+	<npc id="65" idTemplate="25319" name="Ember" title="Raid Boss">
+		<set name="usingServerSideName" val="false"/>
+		<set name="usingServerSideTitle" val="false"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="48"/>
+		<set name="height" val="73"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="RaidBoss"/>
+		<set name="exp" val="3206477"/>
+		<set name="sp" val="835990"/>
+		<set name="hp" val="1200000"/>
+		<set name="mp" val="40"/>
+		<set name="hpRegen" val="2"/>
+		<set name="mpRegen" val="0.9"/>
+		<set name="pAtk" val="8000"/> <!-- 4000 -->
+		<set name="pDef" val="900"/>  <!--800pdef -> fr zeal 50% gear = 2.6k -->
+		<set name="mAtk" val="1000"/>
+		<set name="mDef" val="600"/>  <!--600->700norm 1,5 mc . 1000 mdef -> 460,13 cdl 700,2.4 -->
+		<set name="crit" val="1"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="60"/>
+		<set name="int" val="76"/>
+		<set name="dex" val="73"/>
+		<set name="wit" val="70"/>
+		<set name="con" val="57"/>
+		<set name="men" val="80"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="57"/>
+		<set name="runSpd" val="190"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="true" seedable="false"/>
+
+
+		<skills>
+			<skill id="4045" level="1"/> <!-- Resist full magic attack -->
+			<skill id="4416" level="8"/> 
+			<skill id="4494" level="1"/> <!-- Raid Boss -->
+			<skill id="4961" level="1"/> <!-- RB LEVEL 79 -->
+			<skill id="4071" level="5"/><!-- Resist Archer --> 
+  			<skill id="4428" level="5"/><!-- Resist Bigsword -->
+			<skill id="4425" level="3"/>
+			<skill id="4427" level="3"/> <!-- Resist Sword -->
+		</skills>
+		<drops>
+			<!-- farm -->
+			<category id="1">
+				<drop itemid="9500" min="2500" max="3500" chance="1000000"/>	
+			</category>
+			
+			<!-- High ls-->
+			<category id="2">
+				<drop itemid="8752" min="6" max="20" chance="1000000"/>	
+			</category>
+			
+			<!-- top ls-->
+			<category id="3">
+				<drop itemid="8762" min="6" max="12" chance="1000000"/>	
+			</category>
+			
+			<!-- Rep Coin -->
+			<category id="4">
+				<drop itemid="6690" min="1" max="1" chance="250000"/>	
+			</category>
+			
+
+
+			<category id="6">
+				<drop itemid="961" min="1" max="1" chance="1000000"/>
+			</category>
+			<category id="7">
+				<drop itemid="962" min="2" max="2" chance="1000000"/>
+			</category>
+
+			<!-- custom scroll weap -->
+			<category id="10">
+				<drop itemid="19000" min="1" max="1" chance="200000"/> 
+			</category>
+			
+			<!-- custom scroll armor-->
+			<category id="11">
+				<drop itemid="19005" min="1" max="1" chance="300000"/> 
+			</category>
+			
+			<!-- Nobless -->
+			<category id="20">
+				<drop itemid="6673" min="1" max="2" chance="800000"/> 
+			</category>
+			
+	 
+		</drops>
+	</npc>
+
+	<npc id="66" idTemplate="25450" name="Cherub Galaxia" title="Raid Boss">
+		<set name="usingServerSideName" val="false"/>
+		<set name="usingServerSideTitle" val="false"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="22"/>
+		<set name="height" val="120"/>
+		<set name="rHand" val="97"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="RaidBoss"/>
+		<set name="exp" val="3206477"/>
+		<set name="sp" val="835990"/>
+		<set name="hp" val="1200000"/>
+		<set name="mp" val="40"/>
+		<set name="hpRegen" val="2"/>
+		<set name="mpRegen" val="0.9"/>
+		<set name="pAtk" val="8000"/> <!-- 4000 -->
+		<set name="pDef" val="900"/>  <!--800pdef -> fr zeal 50% gear = 2.6k -->
+		<set name="mAtk" val="1000"/>
+		<set name="mDef" val="600"/>  <!--600->700norm 1,5 mc . 1000 mdef -> 460,13 cdl 700,2.4 -->
+		<set name="crit" val="1"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="60"/>
+		<set name="int" val="76"/>
+		<set name="dex" val="73"/>
+		<set name="wit" val="70"/>
+		<set name="con" val="57"/>
+		<set name="men" val="80"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="50"/>
+		<set name="runSpd" val="190"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="true" seedable="false"/>
+
+		<skills>
+			<skill id="4045" level="1"/> <!-- Resist full magic attack -->
+			<skill id="4416" level="8"/> 
+			<skill id="4494" level="1"/> <!-- Raid Boss -->
+			<skill id="4961" level="1"/> <!-- RB LEVEL 79 -->
+			<skill id="4071" level="5"/><!-- Resist Archer --> 
+  			<skill id="4428" level="5"/><!-- Resist Bigsword -->
+			<skill id="4425" level="3"/>
+			<skill id="4427" level="3"/> <!-- Resist Sword -->
+		</skills>
+		<drops>
+				<!-- farm -->
+			<category id="1">
+				<drop itemid="9500" min="2500" max="3500" chance="1000000"/>	
+			</category>
+			
+			<!-- High ls-->
+			<category id="2">
+				<drop itemid="8752" min="6" max="20" chance="1000000"/>	
+			</category>
+			
+			<!-- top ls-->
+			<category id="3">
+				<drop itemid="8762" min="6" max="12" chance="1000000"/>	
+			</category>
+			
+			<!-- Rep Coin -->
+			<category id="4">
+				<drop itemid="6690" min="1" max="1" chance="250000"/>	
+			</category>
+			
+
+
+			<category id="6">
+				<drop itemid="961" min="1" max="1" chance="1000000"/>
+			</category>
+			<category id="7">
+				<drop itemid="962" min="2" max="2" chance="1000000"/>
+			</category>
+
+			<!-- custom scroll weap -->
+			<category id="10">
+				<drop itemid="19000" min="1" max="1" chance="200000"/> 
+			</category>
+			
+			<!-- custom scroll armor-->
+			<category id="11">
+				<drop itemid="19005" min="1" max="1" chance="300000"/> 
+			</category>
+			
+			<!-- Nobless -->
+			<category id="20">
+				<drop itemid="6673" min="1" max="2" chance="800000"/> 
+			</category>
+			
+	 
+		</drops>
+	</npc>
+
+	<npc id="67" idTemplate="25276" name="Death Lord Ipos" title="Raid Boss">
+		<set name="usingServerSideName" val="false"/>
+		<set name="usingServerSideTitle" val="false"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="31"/>
+		<set name="height" val="61.5"/>
+		<set name="rHand" val="78"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="RaidBoss"/>
+		<set name="exp" val="3206477"/>
+		<set name="sp" val="835990"/>
+		<set name="hp" val="1200000"/>
+		<set name="mp" val="40"/>
+		<set name="hpRegen" val="2"/>
+		<set name="mpRegen" val="0.9"/>
+		<set name="pAtk" val="8000"/> <!-- 4000 -->
+		<set name="pDef" val="900"/>  <!--800pdef -> fr zeal 50% gear = 2.6k -->
+		<set name="mAtk" val="1000"/>
+		<set name="mDef" val="600"/>  <!--600->700norm 1,5 mc . 1000 mdef -> 460,13 cdl 700,2.4 -->
+		<set name="crit" val="1"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="60"/>
+		<set name="int" val="76"/>
+		<set name="dex" val="73"/>
+		<set name="wit" val="70"/>
+		<set name="con" val="57"/>
+		<set name="men" val="80"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="40"/>
+		<set name="runSpd" val="190"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="true" seedable="false"/>
+
+		<skills>
+			<skill id="4045" level="1"/> <!-- Resist full magic attack -->
+			<skill id="4416" level="8"/> 
+			<skill id="4494" level="1"/> <!-- Raid Boss -->
+			<skill id="4961" level="1"/> <!-- RB LEVEL 79 -->
+			<skill id="4071" level="5"/><!-- Resist Archer --> 
+  			<skill id="4428" level="5"/><!-- Resist Bigsword -->
+			<skill id="4425" level="3"/>
+			<skill id="4427" level="3"/> <!-- Resist Sword -->
+		</skills>
+		<drops>
+				<!-- farm -->
+			<category id="1">
+				<drop itemid="9500" min="2500" max="3500" chance="1000000"/>	
+			</category>
+			
+			<!-- High ls-->
+			<category id="2">
+				<drop itemid="8752" min="6" max="20" chance="1000000"/>	
+			</category>
+			
+			<!-- top ls-->
+			<category id="3">
+				<drop itemid="8762" min="6" max="12" chance="1000000"/>	
+			</category>
+			
+			<!-- Rep Coin -->
+			<category id="4">
+				<drop itemid="6690" min="1" max="1" chance="250000"/>	
+			</category>
+			
+
+
+			<category id="6">
+				<drop itemid="961" min="1" max="1" chance="1000000"/>
+			</category>
+			<category id="7">
+				<drop itemid="962" min="2" max="2" chance="1000000"/>
+			</category>
+
+			<!-- custom scroll weap -->
+			<category id="10">
+				<drop itemid="19000" min="1" max="1" chance="200000"/> 
+			</category>
+			
+			<!-- custom scroll armor-->
+			<category id="11">
+				<drop itemid="19005" min="1" max="1" chance="300000"/> 
+			</category>
+			
+			<!-- Nobless -->
+			<category id="20">
+				<drop itemid="6673" min="1" max="2" chance="800000"/> 
+			</category>
+	 
+		</drops>
+	</npc>
+
+</list>

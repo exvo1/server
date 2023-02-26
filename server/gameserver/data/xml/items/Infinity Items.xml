@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<item id="728" type="EtcItem" name="Mana Potion">
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="180" />
+		<set name="price" val="2000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_infinity" val="true" />
+		<set name="handler" val="SoulShots" />
+		<set name="item_skill" val="2279-2" />
+		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
+	</item>
+	<item id="1539" type="EtcItem" name="Greater Healing Potion">
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="price" val="1080" />
+		<set name="reuse_delay" val="10000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_infinity" val="true" />
+		<set name="handler" val="SoulShots" />
+		<set name="item_skill" val="2037-1" />
+		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
+		<set name="shared_reuse_group" val="10" />
+	</item>
+	<item id="5592" type="EtcItem" name="Greater CP Potion">
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="100" />
+		<set name="price" val="600" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_infinity" val="false" />
+		<set name="handler" val="SoulShots" />
+		<set name="item_skill" val="2166-2" />
+	</item>
+	<item id="1835" type="EtcItem" name="Soulshot: No Grade">
+		<set name="default_action" val="soulshot" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="4" />
+		<set name="price" val="7" />
+		<set name="is_stackable" val="false" />
+		<set name="is_infinity" val="true" />
+		<set name="handler" val="SoulShots" />
+		<set name="item_skill" val="2039-1" />
+	</item>
+	<item id="1463" type="EtcItem" name="Soulshot: D-grade">
+		<set name="default_action" val="soulshot" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="3" />
+		<set name="price" val="10" />
+		<set name="is_stackable" val="false" />
+		<set name="is_infinity" val="true" />
+		<set name="handler" val="SoulShots" />
+		<set name="item_skill" val="2150-1" />
+	</item>
+	<item id="1464" type="EtcItem" name="Soulshot: C-grade">
+		<set name="default_action" val="soulshot" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="3" />
+		<set name="price" val="15" />
+		<set name="is_stackable" val="false" />
+		<set name="is_infinity" val="true" />
+		<set name="handler" val="SoulShots" />
+		<set name="item_skill" val="2151-1" />
+	</item>
+	<item id="1465" type="EtcItem" name="Soulshot: B-grade">
+		<set name="default_action" val="soulshot" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="false" />
+		<set name="is_infinity" val="true" />
+		<set name="handler" val="SoulShots" />
+		<set name="item_skill" val="2152-1" />
+	</item>
+	<item id="1466" type="EtcItem" name="Soulshot: A-grade">
+		<set name="default_action" val="soulshot" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="price" val="80" />
+		<set name="is_stackable" val="false" />
+		<set name="is_infinity" val="true" />
+		<set name="handler" val="SoulShots" />
+		<set name="item_skill" val="2153-1" />
+	</item>
+	<item id="1467" type="EtcItem" name="Soulshot: S-grade">
+		<set name="default_action" val="soulshot" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="false" />
+		<set name="is_infinity" val="true" />
+		<set name="handler" val="SoulShots" />
+		<set name="item_skill" val="2154-1" />
+	</item>
+
+	<item id="2509" type="EtcItem" name="Spiritshot: No Grade">
+		<set name="default_action" val="spiritshot" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="5" />
+		<set name="price" val="15" />
+		<set name="is_stackable" val="false" />
+		<set name="is_infinity" val="true" />
+		<set name="handler" val="SpiritShots" />
+		<set name="item_skill" val="2047-1" />
+	</item>
+	<item id="2510" type="EtcItem" name="Spiritshot: D-grade">
+		<set name="default_action" val="spiritshot" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="5" />
+		<set name="price" val="18" />
+		<set name="is_stackable" val="false" />
+		<set name="is_infinity" val="true" />
+		<set name="handler" val="SpiritShots" />
+		<set name="item_skill" val="2155-1" />
+	</item>
+	<item id="2511" type="EtcItem" name="Spiritshot: C-grade">
+		<set name="default_action" val="spiritshot" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="3" />
+		<set name="price" val="35" />
+		<set name="is_stackable" val="false" />
+		<set name="is_infinity" val="true" />
+		<set name="handler" val="SpiritShots" />
+		<set name="item_skill" val="2156-1" />
+	</item>
+	<item id="2512" type="EtcItem" name="Spiritshot: B-grade">
+		<set name="default_action" val="spiritshot" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="3" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="false" />
+		<set name="is_infinity" val="true" />
+		<set name="handler" val="SpiritShots" />
+		<set name="item_skill" val="2157-1" />
+	</item>
+	<item id="2513" type="EtcItem" name="Spiritshot: A-grade">
+		<set name="default_action" val="spiritshot" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="price" val="120" />
+		<set name="is_stackable" val="false" />
+		<set name="is_infinity" val="true" />
+		<set name="handler" val="SpiritShots" />
+		<set name="item_skill" val="2158-1" />
+	</item>
+	<item id="2514" type="EtcItem" name="Spiritshot: S-grade">
+		<set name="default_action" val="spiritshot" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="price" val="150" />
+		<set name="is_stackable" val="false" />
+		<set name="is_infinity" val="true" />
+		<set name="handler" val="SpiritShots" />
+		<set name="item_skill" val="2159-1" />
+	</item>
+
+	<item id="3947" type="EtcItem" name="Blessed Spiritshot: No Grade">
+		<set name="default_action" val="spiritshot" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="5" />
+		<set name="price" val="35" />
+		<set name="is_stackable" val="false" />
+		<set name="is_infinity" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="BlessedSpiritShots" />
+		<set name="item_skill" val="2061-1" />
+	</item>
+	<item id="3948" type="EtcItem" name="Blessed Spiritshot: D-Grade">
+		<set name="default_action" val="spiritshot" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="5" />
+		<set name="price" val="45" />
+		<set name="is_stackable" val="false" />
+		<set name="is_infinity" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="BlessedSpiritShots" />
+		<set name="item_skill" val="2160-1" />
+	</item>
+	<item id="3949" type="EtcItem" name="Blessed Spiritshot: C-Grade">
+		<set name="default_action" val="spiritshot" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="3" />
+		<set name="price" val="90" />
+		<set name="is_stackable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_infinity" val="true" />
+		<set name="handler" val="BlessedSpiritShots" />
+		<set name="item_skill" val="2161-1" />
+	</item>
+	<item id="3950" type="EtcItem" name="Blessed Spiritshot: B-Grade">
+		<set name="default_action" val="spiritshot" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="3" />
+		<set name="price" val="245" />
+		<set name="is_stackable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_infinity" val="true" />
+		<set name="handler" val="BlessedSpiritShots" />
+		<set name="item_skill" val="2162-1" />
+	</item>
+	<item id="3951" type="EtcItem" name="Blessed Spiritshot: A-Grade">
+		<set name="default_action" val="spiritshot" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="price" val="290" />
+		<set name="is_stackable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_infinity" val="true" />
+		<set name="handler" val="BlessedSpiritShots" />
+		<set name="item_skill" val="2163-1" />
+	</item>
+	<item id="3952" type="EtcItem" name="Blessed Spiritshot: S Grade">
+		<set name="default_action" val="spiritshot" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="price" val="350" />
+		<set name="is_stackable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_infinity" val="true" />
+		<set name="handler" val="BlessedSpiritShots" />
+		<set name="item_skill" val="2164-1" />
+	</item>
+
+	<item id="1341" type="EtcItem" name="Bone Arrow">
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="ARROW" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="5" />
+		<set name="price" val="3" />
+		<set name="is_stackable" val="false" />
+		<set name="is_infinity" val="true" />
+	</item>
+	<item id="1342" type="EtcItem" name="Fine Steel Arrow">
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="ARROW" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="4" />
+		<set name="price" val="5" />
+		<set name="is_stackable" val="false" />
+		<set name="is_infinity" val="true" />
+	</item>
+	<item id="1343" type="EtcItem" name="Silver Arrow">
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="ARROW" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="4" />
+		<set name="price" val="7" />
+		<set name="is_stackable" val="false" />
+		<set name="is_infinity" val="true" />
+	</item>
+	<item id="1344" type="EtcItem" name="Mithril Arrow">
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="ARROW" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="3" />
+		<set name="price" val="8" />
+		<set name="is_stackable" val="false" />
+		<set name="is_infinity" val="true" />
+	</item>
+	<item id="1345" type="EtcItem" name="Shining Arrow">
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="ARROW" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="3" />
+		<set name="price" val="10" />
+		<set name="is_stackable" val="false" />
+		<set name="is_infinity" val="true" />
+	</item>
+	<item id="6645" type="EtcItem" name="Beast Soulshot">
+		<set name="default_action" val="summon_soulshot" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="price" val="20" />
+		<set name="is_stackable" val="false" />
+		<set name="is_infinity" val="true" />
+		<set name="handler" val="BeastSoulShots" />
+		<set name="item_skill" val="2033-1" />
+	</item>
+	<item id="6646" type="EtcItem" name="Beast Spiritshot">
+		<set name="default_action" val="summon_spiritshot" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="price" val="40" />
+		<set name="is_stackable" val="false" />
+		<set name="is_infinity" val="true" />
+		<set name="handler" val="BeastSpiritShots" />
+		<set name="item_skill" val="2008-1" />
+	</item>
+	<item id="6647" type="EtcItem" name="Blessed Beast Spiritshot">
+		<set name="default_action" val="summon_spiritshot" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="2" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="false" />
+		<set name="is_infinity" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="BeastSpiritShots" />
+		<set name="item_skill" val="2009-1" />
+	</item>
+</list>
+	

@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+
+<!-- Close to S grade Status -->
+	<skill id="10032" levels="1" name="Heavy Armor Set">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pAtkSpd" val="1.03"/> <!-- Attack Speed +4% -->
+			<mul order="0x30" stat="pDef" val="1.18"/> <!-- 1.25 -->
+			<add order="0x40" stat="maxHp" val="200"/> <!-- Maximum HP +445 -->
+			<addMul order="0x40" stat="sleepVuln" val="30" /> <!-- 50% -->
+			<addMul order="0x40" stat="rootVuln" val="30" /> <!-- 50% -->
+			<sub order="0x40" stat="DEX" val="1"/> <!-- DEX -2 -->
+			<add order="0x40" stat="STR" val="1"/> <!-- STR +2 -->
+			<mul order="0x40" stat="cancelVuln" val="1"/> 
+		</for>
+	</skill>
+
+<!-- better Status -->
+
+	<skill id="10033" levels="1" name="Heavy Armor Set">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pAtkSpd" val="1.06"/> <!-- Attack Speed +6% -->
+			<mul order="0x30" stat="pDef" val="1.25"/> <!-- 1.17 -->
+			<add order="0x40" stat="maxHp" val="695"/> <!-- Maximum HP +445 -->
+			<addMul order="0x40" stat="sleepVuln" val="40" /> <!-- 50% -->
+			<addMul order="0x40" stat="rootVuln" val="40" /> <!-- 50% -->
+			<sub order="0x40" stat="DEX" val="2"/> <!-- DEX -2 -->
+			<add order="0x40" stat="STR" val="2"/> <!-- STR +2 -->
+			<mul order="0x40" stat="cancelVuln" val="1.05"/> 
+		</for>
+	</skill>
+
+<!-- Close to S grade Status -->
+	<skill id="10034" levels="1" name="Light Armor Set">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pDef" val="1.05"/> <!-- basemul 1.11  -->
+			<mul order="0x30" stat="pAtkSpd" val="1.05"/> <!-- 1.08  -->
+			<mul order="0x30" stat="cAtk" val="1.04"/> 
+			<mul order="0x30" stat="pAtk" val="1.12"/> <!-- 1.15  -->
+			<add order="0x40" stat="maxHp" val="300"/> 
+			<add order="0x40" stat="DEX" val="1"/> 
+			<add order="0x40" stat="STR" val="1"/>
+			<sub order="0x40" stat="CON" val="1"/> 
+			<mul order="0x40" stat="cancelVuln" val="1"/> 
+		</for>
+	</skill>
+
+<!-- better Status -->
+	<skill id="10035" levels="1" name="Light Armor Set">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<basemul order="0x30" stat="pDef" val="1.1"/> <!-- 1.11  -->
+			<mul order="0x30" stat="pAtkSpd" val="1.10"/> <!-- 1.08  -->
+			<mul order="0x30" stat="cAtk" val="1.09"/> 
+			<mul order="0x30" stat="pAtk" val="1.18"/> <!-- 1.15  -->
+			<add order="0x40" stat="maxHp" val="400"/> 
+			<add order="0x40" stat="DEX" val="1"/> 
+			<add order="0x40" stat="STR" val="1"/>
+			<sub order="0x40" stat="CON" val="2"/> 
+			<mul order="0x40" stat="cancelVuln" val="1.05"/> 
+		</for>
+	</skill>	
+
+<!-- Close to S grade Status -->
+	<skill id="10036" levels="1" name="Robe Set">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul stat="mAtkSpd" val="1.16"/> <!-- 1.21 -->
+			<mul order="0x30" stat="mAtk" val="1.09"/> <!-- 1.20 -->
+			<add order="0x40" stat="runSpd" val="4"/> <!-- Speed +7 -->
+			<sub order="0x40" stat="cancel" val="18"/> <!-- Casting Cancel Probability -50% -->
+			<add order="0x40" stat="WIT" val="2"/> <!-- WIT +2 -->
+			<add order="0x40" stat="INT" val="1"/> <!-- INT +1 -->
+			<sub order="0x40" stat="MEN" val="1"/> <!-- MEN -2 -->
+			<subMul order="0x40" stat="stunVuln" val="30" />
+
+			<add order="0x40" stat="maxHp" val="200"/> <!-- Maximum MP +289 -->
+			<mul stat="pDef" val="1.14"/> <!-- 1.3 -->
+		</for>
+	</skill>
+
+
+<!-- better Status -->
+	<skill id="10037" levels="1" name="Robe Set">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="mAtkSpd" val="1.21"/> <!-- 1.25 -->
+			<mul order="0x30" stat="mAtk" val="1.20"/> <!-- 1.20 -->
+			<add order="0x40" stat="runSpd" val="8"/> <!-- Speed +7 -->
+			<sub order="0x40" stat="cancel" val="18"/> <!-- Casting Cancel Probability -50% -->
+			<add order="0x40" stat="WIT" val="2"/> <!-- WIT +2 -->
+			<add order="0x40" stat="INT" val="1"/> <!-- INT +1 -->
+			<sub order="0x40" stat="MEN" val="2"/> <!-- MEN -2 -->
+			<subMul order="0x40" stat="stunVuln" val="50" />
+
+			<add order="0x40" stat="maxHp" val="600"/> <!-- Maximum MP +289 -->
+			<mul stat="pDef" val="1.25"/> <!-- 1.3 -->
+		</for>
+	</skill>
+
+
+
+</list>

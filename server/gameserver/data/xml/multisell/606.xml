@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<list maintainEnchantment="true">
+ <!-- vote shop-->
+
+ 
+
+  <item id="29">
+    <production id="3172" count="1"/>	<!-- rec -->
+    <ingredient id="9502" count="50"/>
+  </item>
+
+  <item id="31">
+    <production id="6673" count="1"/>	<!-- nobless -->
+    <ingredient id="9502" count="50"/>
+  </item>
+  
+
+
+</list>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<list maintainEnchantment="true">
+ <!--pvp shop-->
+
+
+<!-- Cp pot -->
+  <item id="5">
+    <production id="5592" count="250"/>
+    <ingredient id="9505" count="50"/>
+  </item>
+
+  
+</list>

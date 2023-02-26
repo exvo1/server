@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<skill id="5406" levels="1" name="Valakas Scroll">
+		<set name="target" val="TARGET_SELF" />
+		<set name="hitTime" val="4000" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="HOT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="3600" val="0" stackOrder="4" stackType="scroll_epic">
+			   <mul order="0x30" stat="pAtk" val="1.02"/> 
+			   <mul order="0x30" stat="mAtk" val="1.02"/> 
+			</effect>
+		</for>
+	</skill>
+	<skill id="5407" levels="1" name="Antharas Scroll">
+		<set name="target" val="TARGET_SELF" />
+		<set name="hitTime" val="4000" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="HOT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="3600" val="0" stackOrder="4" stackType="scroll_epic">
+			   <add order="0x40" stat="maxCp" val="50"/> 
+			   <mul order="0x30" stat="pDef" val="1.02"/> 
+			</effect>
+		</for>
+	</skill>
+	<skill id="5408" levels="1" name="Frintezza Scroll">
+		<set name="target" val="TARGET_SELF" />
+		<set name="hitTime" val="4000" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="HOT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="3600" val="0" stackOrder="4" stackType="scroll_epic">
+			   <mul order="0x30" stat="gainHp" val="1.04"/> 
+			</effect>
+		</for>
+	</skill>
+	<skill id="5409" levels="1" name="Orfen Scroll">
+		<set name="target" val="TARGET_SELF" />
+		<set name="hitTime" val="4000" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="HOT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="3600" val="0" stackOrder="4" stackType="scroll_epic">
+				<sub order="0x40" stat="stunVuln" val="5" />
+				<sub order="0x40" stat="debuffVuln" val="5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5410" levels="1" name="Queen Ant Scroll">
+		<set name="target" val="TARGET_SELF" />
+		<set name="hitTime" val="4000" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="HOT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="3600" val="0" stackOrder="4" stackType="scroll_epic">
+			   <mul order="0x30" stat="cAtk" val="1.02"/> 
+			   <mul order="0x30" stat="mCritRate" val="2"/> 
+			</effect>
+		</for>
+	</skill>
+	<skill id="5411" levels="1" name="Baium Scroll">
+		<set name="target" val="TARGET_SELF" />
+		<set name="hitTime" val="4000" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="HOT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="3600" val="0" stackOrder="4" stackType="scroll_epic">
+			   <mul order="0x30" stat="pAtkSpd" val="1.02"/> 
+			   <mul order="0x30" stat="mAtkSpd" val="1.02"/> 
+			</effect>
+		</for>
+	</skill>
+	<skill id="5412" levels="1" name="Zaken Scroll">
+		<set name="target" val="TARGET_SELF" />
+		<set name="hitTime" val="4000" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="HOT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="3600" val="0" stackOrder="4" stackType="scroll_epic">
+			   <add order="0x40" stat="maxHp" val="50"/> 
+			   <mul order="0x30" stat="mDef" val="1.02"/> 
+			</effect>
+		</for>
+	</skill>
+</list>

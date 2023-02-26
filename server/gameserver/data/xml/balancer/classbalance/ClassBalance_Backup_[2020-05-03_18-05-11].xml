@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<balance classId="92" targetClassId="113">
+		<set type="Crit" val="0.8"/>
+	</balance>
+	<balance classId="2" targetClassId="2">
+		<set type="Normal" val="1.0"/>
+	</balance>
+</list>

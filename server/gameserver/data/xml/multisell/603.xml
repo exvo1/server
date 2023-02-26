@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+
+  <!--clan items-->
+  <item id="1">
+    <production id="8166" count="15" />
+    <ingredient id="6392" count="10" />
+  </item>
+
+  <!--Boss Jew-->
+  <item id="2">
+    <production id="8169" count="15" />
+    <ingredient id="6392" count="10" />
+  </item>
+
+  <!--Boss Jew-->
+  <item id="3">
+    <production id="8172" count="15" />
+    <ingredient id="6392" count="10" />
+  </item>
+
+  <!--Boss Jew-->
+  <item id="4">
+    <production id="8163" count="15" />
+    <ingredient id="6392" count="10" />
+  </item>
+
+  <!--Boss Jew-->
+  <item id="5">
+    <production id="8160" count="15" />
+    <ingredient id="6392" count="10" />
+  </item>
+
+  <!--Boss Jew-->
+  <item id="6">
+    <production id="8176" count="15" />
+    <ingredient id="6392" count="10" />
+  </item>
+
+  <!--Boss Jew-->
+  <item id="7">
+    <production id="8175" count="15" />
+    <ingredient id="6392" count="10" />
+  </item>
+
+  <item id="8">
+    <production id="1419" count="1" />
+    <ingredient id="6392" count="10" />
+  </item>
+
+  <item id="9">
+    <production id="3874" count="1" />
+    <ingredient id="6392" count="10" />
+  </item>
+
+  <item id="10">
+    <production id="3870" count="1" />
+    <ingredient id="6392" count="10" />
+  </item>
+</list>
+

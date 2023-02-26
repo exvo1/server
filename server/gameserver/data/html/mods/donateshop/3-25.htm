@@ -1,0 +1,56 @@
+<html>
+<title>Services</title>
+<body>
+<center>
+
+<br><td align=center><img src=L2server.logo width=286 height=100></td>
+
+<body>
+<center>
+
+
+<center>
+
+<table width=100>
+<tr>
+
+<td fixwidth=250>
+<center>
+<font color=4682B4>New Pass:</font>
+<edit var="newPass" width=120>
+		
+<font color=4682B4>Reapeat Pass:</font>
+<edit var="repeatNewPass" width=120>
+	
+</td>
+
+<td fixwidth=5>
+</td>
+
+</tr>
+</table>
+<center>
+<br>
+
+<table width=100>
+<tr>
+<td fixwidth=32 height=42>
+	<button value="ChangePwd" action="bypass -h npc_%objectId%_password $newPass $repeatNewPass"width=93 height=22 back="saitan.But3" fore="saitan.But3">
+</td>
+</tr>
+</table>
+
+<br1>
+
+<font color="B8B8B8 " align="center">___________________________________________</font>
+<table width=220>
+	<tr>
+		<td align=center>
+			<button value="Back" action="bypass -h npc_%objectId%_Chat 0"width=93 height=22 back="saitan.But3" fore="saitan.But3">
+		</td>
+	</tr>
+</table>
+<font color="B8B8B8 " align="center">___________________________________________</font>
+</center>
+</body>
+</html>

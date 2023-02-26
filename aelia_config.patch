@@ -1,0 +1,217 @@
+Index: src/main/java/net/sf/l2j/gameserver/model/actor/instance/Monster.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/net/sf/l2j/gameserver/model/actor/instance/Monster.java b/src/main/java/net/sf/l2j/gameserver/model/actor/instance/Monster.java
+--- a/src/main/java/net/sf/l2j/gameserver/model/actor/instance/Monster.java	
++++ b/src/main/java/net/sf/l2j/gameserver/model/actor/instance/Monster.java	(date 1649454617081)
+@@ -192,7 +192,10 @@
+ 		
+ 		// Manage Base, Quests and Sweep drops of the L2Attackable.
+ 		doItemDrop(getTemplate(), (maxDealer != null && maxDealer.isOnline()) ? maxDealer : lastAttacker);
+-		
++
++		// CustomDrop
++		dropCustomNpcId(lastAttacker);
++
+ 		for (RewardInfo reward : rewards.values())
+ 		{
+ 			if (reward.getAttacker() instanceof Summon)
+@@ -874,7 +877,10 @@
+ 		if (isChampion())
+ 			if (drop.getItemId() == 57 || (drop.getItemId() >= 6360 && drop.getItemId() <= 6362))
+ 				itemCount *= Config.CHAMPION_ADENAS_REWARDS;
+-			
++
++		if(Config.DISABLE_DROPLIST_ITEM.contains(drop.getItemId()))
++			return null;
++
+ 		if (itemCount > 0)
+ 			return new IntIntHolder(drop.getItemId(), itemCount);
+ 		
+@@ -979,7 +985,10 @@
+ 			if (isChampion())
+ 				if (drop.getItemId() == 57 || (drop.getItemId() >= 6360 && drop.getItemId() <= 6362))
+ 					itemCount *= Config.CHAMPION_ADENAS_REWARDS;
+-				
++
++			if(Config.DISABLE_DROPLIST_ITEM.contains(drop.getItemId()))
++				return null;
++
+ 			if (itemCount > 0)
+ 				return new IntIntHolder(drop.getItemId(), itemCount);
+ 		}
+@@ -1242,7 +1251,52 @@
+ 				break;
+ 		}
+ 	}
+-	
++
++	/**
++	 * @author psygrammator
++	 * dropCustomNpcId
++	 * RaidBoss/GrandBoss/Monster
++	 * @param player
++	 */
++	private void dropCustomNpcId(Creature player) {
++		final Player killer = player.getActingPlayer();
++
++		if (killer == null) {
++			return;
++		}
++
++		if (Config.CUSTOM_DROP_ID_BOSS)
++		{
++			for(Map.Entry<Integer, List<Config.EventReward>> e : Config.RAID_DROP_ID_BOSS.entrySet())
++			{
++				if (getNpcId() != e.getKey())
++					continue;
++
++				List<Config.EventReward> items = e.getValue();
++				if (items == null || items.isEmpty()) {
++					continue;
++				}
++				for (Config.EventReward k : items) {
++					if (k == null) {
++						continue;
++					}
++
++					if (Rnd.get(100) < k.chance) {
++						IntIntHolder item = new IntIntHolder(k.id, Rnd.get(k.count, k.count_max));
++						if (((isRaidBoss() && Config.AUTO_LOOT_RAID) || (!isRaidBoss() && Config.AUTO_LOOT)) && killer.getInventory().validateCapacityByItemId(item))
++							killer.doAutoLoot(this, item);
++						else
++							dropItem(killer, item);
++
++						if (isRaidBoss())
++							broadcastPacket(SystemMessage.getSystemMessage(SystemMessageId.S1_DIED_DROPPED_S3_S2).addCharName(this).addItemName(item.getId()).addNumber(item.getValue()));
++
++					}
++				}
++			}
++		}
++	}
++
+ 	private static class CommandChannelTimer implements Runnable
+ 	{
+ 		private final Monster _monster;
+Index: src/main/java/net/sf/l2j/Config.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/net/sf/l2j/Config.java b/src/main/java/net/sf/l2j/Config.java
+--- a/src/main/java/net/sf/l2j/Config.java	
++++ b/src/main/java/net/sf/l2j/Config.java	(date 1649453593151)
+@@ -35,7 +35,71 @@
+ 	public static final String PLAYERS_FILE = "./config/players.properties";
+ 	public static final String SERVER_FILE = "./config/server.properties";
+ 	public static final String SIEGE_FILE = "./config/siege.properties";
+-	
++	public static final String AELIA_FILE = "./config/aelia.properties";
++
++	// --------------------------------------------------
++	// Aelia settings
++	// --------------------------------------------------
++	public static List<Integer> DISABLE_DROPLIST_ITEM;
++
++	public static boolean CUSTOM_DROP_ID_BOSS;
++	public static Map<Integer, List<EventReward>> RAID_DROP_ID_BOSS;
++
++	/**
++	 * Loads aelia settings.
++	 */
++	private static void loadAelia()
++	{
++		final ExProperties aelia = initProperties(Config.AELIA_FILE);
++
++		String[] propertySplit = null;
++		String splitCheck = null;
++
++		RAID_DROP_ID_BOSS = new HashMap<>();
++		CUSTOM_DROP_ID_BOSS = false;
++		splitCheck = aelia.getProperty("CustomDropNpcId", "off");
++		if (!splitCheck.equals("off")) {
++			propertySplit = splitCheck.split("#");
++			for (String drop_data : propertySplit) {
++				String[] lvlf = drop_data.split(":");
++				try {
++					int npcid = Integer.parseInt(lvlf[0]);
++
++					List<EventReward> drops = new ArrayList<>();
++					String[] items = lvlf[1].split(";");
++					for (String item : items) {
++						String[] idc = item.split(",");
++						drops.add(new EventReward(Integer.parseInt(idc[0]), Integer.parseInt(idc[1]), Integer.parseInt(idc[2]), Integer.parseInt(idc[3])));
++					}
++
++					RAID_DROP_ID_BOSS.put(npcid, drops);
++				} catch (NumberFormatException nfe) {
++					if (!drop_data.equals("")) {
++						LOGGER.info("aelia.properties: CustomDropNpcId error: " + drop_data);
++					}
++				}
++			}
++			if (!RAID_DROP_ID_BOSS.isEmpty()) {
++				CUSTOM_DROP_ID_BOSS = true;
++			}
++		}
++
++		DISABLE_DROPLIST_ITEM = new ArrayList<>();
++		splitCheck = aelia.getProperty("DisableDropItemIds", "off");
++		if (!splitCheck.equalsIgnoreCase("off")) {
++			propertySplit = splitCheck.split(",");
++			for (String id : propertySplit) {
++				try {
++					DISABLE_DROPLIST_ITEM.add(Integer.parseInt(id));
++				} catch (NumberFormatException nfe) {
++					if (!propertySplit[0].equals("")) {
++						LOGGER.info("aelia.properties: DisableDropItemIds error: " + propertySplit[0]);
++					}
++				}
++			}
++		}
++
++	}
+ 	// --------------------------------------------------
+ 	// Clans settings
+ 	// --------------------------------------------------
+@@ -1351,6 +1415,9 @@
+ 		
+ 		// server settings
+ 		loadServer();
++
++		// aelia settings
++		loadAelia();
+ 	}
+ 	
+ 	public static final void loadLoginServer()
+@@ -1464,4 +1531,26 @@
+ 			return _claimItems.get(job);
+ 		}
+ 	}
++
++	public static class EventReward
++	{
++		public int id;
++		public int count;
++		public int count_max;
++		public int chance;
++
++		public EventReward(int id, int count, int chance) {
++			this.id = id;
++			this.count = count;
++			this.count_max = count;
++			this.chance = chance;
++		}
++
++		public EventReward(int id, int count, int count_max, int chance) {
++			this.id = id;
++			this.count = count;
++			this.count_max = count_max;
++			this.chance = chance;
++		}
++	}
+ }
+\ No newline at end of file

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<list maintainEnchantment="true">
+ <!-- donate shop-->
+
+	<item id="1">
+		<ingredient id="9503" count="5"/>
+		<production id="10000" count="1" />
+	</item>
+	<item id="2">
+		<ingredient id="9503" count="10"/>
+		<production id="10001" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9503" count="20"/>
+		<production id="10002" count="1" />
+	</item>
+
+
+</list>

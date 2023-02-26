@@ -1,0 +1,2 @@
+[22.04.22 11:20:09:222]  INFO log.MLog: MLog clients using log4j logging.
+[22.04.22 11:20:09:551]  INFO c3p0.C3P0Registry: Initializing c3p0-0.9.5-pre5 [debug? false; trace: 5]

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<!-- Olympiad Stadium Zones -->
+	<zone shape="NPoly" minZ="-3100" maxZ="-2825"><!-- olympiad_stadium_01 -->
+		<node x="-21680" y="-20140" />
+		<node x="-21965" y="-20500" />
+		<node x="-21965" y="-21530" />
+		<node x="-21680" y="-21870" />
+		<node x="-19953" y="-21870" />
+		<node x="-19670" y="-21530" />
+		<node x="-19670" y="-20500" />
+		<node x="-19953" y="-20142" />
+		<!-- point1 -->
+		<spawn x="-21680" y="-21028" z="-3022" />
+		<!-- point2 -->
+		<spawn x="-19953" y="-21028" z="-3022" />
+		<!-- spectator -->
+		<spawn x="-20816" y="-21028" z="-3022" />
+	</zone>
+</list>

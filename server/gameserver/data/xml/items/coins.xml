@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<item id="30000" type="EtcItem" name="L2servericon">
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="price" val="0" />
+		<set name="is_stackable" val="true" />
+	</item>
+
+	<item id="6671" type="EtcItem" name="Deluxe Chest Key - Grade 7">
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="HeroItem" />
+	</item>
+	<item id="6673" type="EtcItem" name="Nobles Item">
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="NobleCustomItem" />
+	</item>
+
+	<item id="9500" type="EtcItem" name="Farm Coin">
+		<set name="material" val="STEEL" />
+		<set name="price" val="0" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9501" type="EtcItem" name="Raid Coin">
+		<set name="material" val="STEEL" />
+		<set name="price" val="0" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9502" type="EtcItem" name="Vote Coin">
+		<set name="material" val="STEEL" />
+		<set name="price" val="0" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9503" type="EtcItem" name="Donate coin">
+		<set name="material" val="STEEL" />
+		<set name="price" val="0" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+
+	<item id="9505" type="EtcItem" name="Pvp coin">
+		<set name="material" val="STEEL" />
+		<set name="price" val="0" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9510" type="EtcItem" name="Hero Coin">
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="HeroItem" />
+	</item>
+	<item id="9511" type="EtcItem" name="Tournament coin">
+		<set name="material" val="STEEL" />
+		<set name="price" val="0" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="6690" type="EtcItem" name="Rep Item">
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ClanItem" />
+	</item>
+	<item id="6691" type="EtcItem" name="Full Clan">
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ClanItemFull" />
+	</item>
+	<item id="3172" type="EtcItem" name="Rec Item">
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="RecItem" />
+	</item>
+	<item id="10000" type="EtcItem" name="VIP 1">
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="VipCoin" />
+	</item>
+	<item id="10001" type="EtcItem" name="VIP 7">
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="VipCoin" />
+	</item>	
+	<item id="10002" type="EtcItem" name="VIP 30">
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="VipCoin" />
+	</item>
+</list>
+	

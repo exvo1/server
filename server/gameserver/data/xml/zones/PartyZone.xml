@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+
+
+
+<!-- School of Dark Arts -pvp and pk allowed	-->
+<zone shape="Cylinder" minZ="-11000" maxZ="11000" rad="5000"> <!-- 23_21 -->
+	<node x="-47407" y="49422" />
+	<spawn x="-47125" y="57131" z="-3625" />						
+</zone>		
+
+
+<!-- gc down fro paty -->
+<zone id="7000" shape="Cuboid" minZ="-8500" maxZ="-6799"><!-- Giants Cave -->
+	<node x="195000" y="63450" /> 
+	<node x="181000" y="57500" />
+
+	<spawn x="187698" y="61022" z="-7242" />
+
+
+</zone>
+
+
+</list>

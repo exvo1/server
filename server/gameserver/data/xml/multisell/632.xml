@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list maintainEnchantment="true">
+
+<!-- a grade -->
+	<item id="1">
+		<ingredient id="57" count="0"/>
+		<production id="924" count="1" enchant="3"/>
+		<production id="862" count="2" enchant="3"/>
+		<production id="893" count="2" enchant="3"/>
+	</item>
+
+	<!-- majestic Necklace -->
+	<item id="1">
+		<ingredient id="57" count="0" />
+		<production id="924" count="1" enchant="3"/>
+	</item>
+
+	<!--  majestic earring -->
+	<item id="2">
+		<ingredient id="57" count="0" />
+		<production id="862" count="2" enchant="3"/>
+	</item>
+
+	<!--  majestic ring -->
+	<item id="3">
+		<ingredient id="57" count="0" />
+		<production id="893" count="2" enchant="3"/>
+	</item>
+
+
+
+
+
+</list>

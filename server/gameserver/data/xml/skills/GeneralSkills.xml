@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+
+	<skill id="5413" levels="1" name="Vote Buff">
+		<set name="target" val="TARGET_SELF" />
+		<set name="hitTime" val="4000" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="HOT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="stayAfterDeath" val="true" />
+		<for>
+			<effect name="Buff" time="3600" val="0" stackOrder="20" stackType="vote_buff">
+				<add stat="maxHp" val="500"/>
+			   	<add stat="maxCp" val="500"/>
+			   	<add stat="maxMp" val="500"/>
+				<add stat="pDef" val="50"/> 
+				<add stat="mDef" val="50"/> 
+			</effect>
+		</for>
+	</skill>
+
+
+</list>

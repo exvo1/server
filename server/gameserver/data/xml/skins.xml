@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<skin id="15001" hairId="14500" chestId="14501" legsId="0" glovesId="0" feetId="0"/> <!-- Assassin Dark -->
+	<skin id="15002" hairId="14502" chestId="14503" legsId="0" glovesId="0" feetId="0"/> <!-- Assassin Light -->
+	<skin id="15003" hairId="14504" chestId="14505" legsId="0" glovesId="0" feetId="0"/> <!-- Zaken -->
+	<skin id="15004" hairId="14506" chestId="14507" legsId="0" glovesId="0" feetId="0"/> <!-- Musketeer -->
+	<skin id="15005" hairId="14508" chestId="14509" legsId="0" glovesId="0" feetId="0"/> <!-- Wizard -->
+	
+	<skin id="15006" hairId="14510" chestId="14511" legsId="0" glovesId="0" feetId="0"/> <!-- QUEEN LIGHT -->
+	<skin id="15007" hairId="14512" chestId="14513" legsId="0" glovesId="0" feetId="0"/> <!-- QUEEN RED -->
+
+	
+
+	
+	<skin id="15012" hairId="14522" chestId="14523" legsId="0" glovesId="0" feetId="0"/> <!-- Wizard Vinho -->
+	
+	<skin id="15014" hairId="14524" chestId="14525" legsId="0" glovesId="0" feetId="0"/> <!-- Dark Knight -->
+	<skin id="15016" hairId="14526" chestId="14527" legsId="0" glovesId="0" feetId="0"/> <!-- Ninja -->
+	<skin id="15017" hairId="14528" chestId="14529" legsId="0" glovesId="0" feetId="0"/> <!-- Arrow -->
+	<skin id="15018" hairId="14530" chestId="14531" legsId="0" glovesId="0" feetId="0"/> <!-- Beleth -->
+	<skin id="15019" hairId="14532" chestId="14533" legsId="0" glovesId="0" feetId="0"/> <!-- Healer -->
+	<skin id="15020" hairId="14534" chestId="14535" legsId="0" glovesId="0" feetId="0"/> <!-- Lilith -->
+
+<!-- Removed -->
+	<skin id="15010" hairId="14518" chestId="14519" legsId="0" glovesId="0" feetId="0"/> <!-- Esqueleto skeleton-->
+	<skin id="15008" hairId="14514" chestId="14515" legsId="0" glovesId="0" feetId="0"/> <!-- Aventureiro -->
+	<skin id="15009" hairId="14516" chestId="14517" legsId="0" glovesId="0" feetId="0"/> <!-- Ninja 2 -->
+	<skin id="15011" hairId="14520" chestId="14521" legsId="0" glovesId="0" feetId="0"/> <!-- Coelho -->
+</list>

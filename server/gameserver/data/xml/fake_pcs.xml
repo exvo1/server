@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+   <npc id="31688">
+       <appearance name="Olympiad Manager" name_color="FFFFFF" title="L2Server" title_color="cc75cc" radius="9" height="22" race="0" sex="0" class="88" hair_style="0" hair_color="3" face="0" hero="1" enchant="20" />
+       <items right_hand="11112" left_hand="0" chest="13046" legs="0" gloves="13048" feet="13049" hair="13045" hair2="9613" />
+       <clan clan_id="0" clan_crest="0" ally_id="0" ally_crest="0" pledge="0" />
+   </npc>
+   <npc id="50008">
+       <appearance name="Scheme Buffer" name_color="FFFFFF" title="L2Server" title_color="008000" radius="5" height="19" race="0" sex="2" class="117" hair_style="0" hair_color="3" face="0" hero="0" enchant="16" />
+       <items right_hand="11140" left_hand="11144" chest="2407" legs="0" gloves="5767" feet="5779" hair="6841" hair2="9990" />
+       <clan clan_id="0" clan_crest="0" ally_id="0" ally_crest="0" pledge="0" />
+   </npc>
+
+
+</list>

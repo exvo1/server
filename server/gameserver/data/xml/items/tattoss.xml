@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+
+	<item id="9550" type="Armor" name="Tattoo of Figher 1">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4200" />
+		<set name="price" val="1" />
+		<for>
+			<add order="0x10" stat="mDef" val="20" />
+                       	<mul val='1.05' order='0x30' stat='pAtkSpd'/>
+		</for>
+	</item>
+	<item id="9551" type="Armor" name="Tattoo of Mage 1">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4200" />
+		<set name="price" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="20" />
+                     	<mul val='1.05' order='0x30' stat='mAtkSpd'/>
+		</for>
+	</item>
+
+	<item id="9552" type="Armor" name="Tattoo of Figher 2">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4200" />
+		<set name="price" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<for>
+			<add order="0x10" stat="mDef" val="50" />
+                     	<mul val='1.12' order='0x30' stat='pAtkSpd'/>
+		</for>
+	</item>
+	<item id="9553" type="Armor" name="Tattoo of Mage 2">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4200" />
+		<set name="price" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="50" />
+                      	<mul val='1.12' order='0x30' stat='mAtkSpd'/>
+		</for>
+	</item>
+</list>
+	

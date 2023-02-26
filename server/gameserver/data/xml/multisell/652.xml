@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<list maintainEnchantment="true">
+ <!-- skin shop-->
+
+	<item id="3">
+		<ingredient id="9503" count="5"/>
+		<production id="15001" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9503" count="5"/>
+		<production id="15002" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9503" count="5"/>
+		<production id="15003" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9503" count="5"/>
+		<production id="15004" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9503" count="5"/>
+		<production id="15005" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9503" count="5"/>
+		<production id="15006" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9503" count="5"/>
+		<production id="15007" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9503" count="5"/>
+		<production id="15012" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9503" count="5"/>
+		<production id="15014" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9503" count="5"/>
+		<production id="15016" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9503" count="5"/>
+		<production id="15017" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9503" count="5"/>
+		<production id="15018" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9503" count="5"/>
+		<production id="15019" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9503" count="5"/>
+		<production id="15020" count="1" />
+	</item>
+
+</list>

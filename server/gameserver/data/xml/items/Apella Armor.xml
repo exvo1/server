@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<item id="9450" type="Armor" name="Apella Helmet-heavy">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="268" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="550" />
+		<set name="price" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<for>
+			<baseadd order="0x10" stat="pDef" val="83" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9451" type="Armor" name="Apella Breastplate-heavy">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="715" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="7620" />
+		<set name="price" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<for>
+			<baseadd order="0x10" stat="pDef" val="333" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+
+
+	<item id="9452" type="Armor" name="Apella Gauntlets-heavy">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="540" />
+		<set name="price" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<for>
+			<baseadd order="0x10" stat="pDef" val="55" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9453" type="Armor" name="Apella Boots-heavy">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1110" />
+		<set name="price" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<for>
+			<baseadd order="0x10" stat="pDef" val="55" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9454" type="Armor" name="Apella Helmet-light">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="268" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="550" />
+		<set name="price" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<for>
+			<baseadd order="0x10" stat="pDef" val="83" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+
+	<item id="9455" type="Armor" name="Apella Leather Breastplate-light">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="715" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="7620" />
+		<set name="price" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<for>
+			<baseadd order="0x10" stat="pDef" val="249" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+
+
+	<item id="9456" type="Armor" name="Apella Leather Gloves-Light">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="540" />
+		<set name="price" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<for>
+			<baseadd order="0x10" stat="pDef" val="55" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9457" type="Armor" name="Apella Leather Boots-Light">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1110" />
+		<set name="price" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<for>
+			<baseadd order="0x10" stat="pDef" val="55" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9458" type="Armor" name="Apella Leather Helmet-Robe">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="268" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="550" />
+		<set name="price" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<for>
+			<baseadd order="0x10" stat="pDef" val="69" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+
+	<item id="9459" type="Armor" name="Apella Tunic-Robe">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="715" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="7620" />
+		<set name="price" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<for>
+			<baseadd order="0x10" stat="pDef" val="140" />
+			<baseadd order="0x40" stat="maxMp" val="800" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+
+
+	<item id="9460" type="Armor" name="Apella Mittens-Robe">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="540" />
+		<set name="price" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<for>
+			<baseadd order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9461" type="Armor" name="Apella Sandals-Robe">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="1110" />
+		<set name="price" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<for>
+			<baseadd order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+
+
+
+
+</list>

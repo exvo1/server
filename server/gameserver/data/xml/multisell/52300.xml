@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<list maintainEnchantment="true">
+
+ 
+  <!-- book for skill enchanter! -->
+ 
+        <item id="1">
+   
+       <ingredient id="9502" count="5"/>
+ 
+       <production id="6622" count="1"/>
+ 
+ </item>
+
+</list>

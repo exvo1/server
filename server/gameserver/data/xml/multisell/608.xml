@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<list maintainEnchantment="true">
+ <!--Tournament shop-->
+
+
+ <item id="1">
+    <production id="9501" count="1"/>
+    <ingredient id="9511" count="1"/>
+  </item>
+
+
+  <!--dusk shield-->
+  <item id="1">
+    <production id="11128" count="1"/>
+    <ingredient id="9511" count="1"/>
+  </item>
+
+<!-- reflect -->
+  <item id="2">
+    <production id="11129" count="1"/>
+    <ingredient id="9511" count="1"/>
+  </item>
+<!-- eva -->
+  <item id="3">
+    <production id="11130" count="1"/>
+    <ingredient id="9511" count="1"/>
+  </item>
+
+<!-- Cp pot -->
+  <item id="5">
+    <production id="5592" count="400"/>
+    <ingredient id="9511" count="1"/>
+  </item>
+
+<!-- quick healing pot -->
+  <item id="16">
+    <production id="1540" count="10"/>
+    <ingredient id="9511" count="1"/>
+  </item>
+
+
+<!-- crystal s weap-->
+  <item id="20">
+    <production id="961" count="1"/>
+    <ingredient id="9511" count="1"/>
+  </item>
+
+<!-- crystal s armor-->
+  <item id="21">
+    <production id="962" count="1"/>
+    <ingredient id="9511" count="1"/>
+  </item>
+
+<!-- crystal a armor-->
+  <item id="23">
+    <production id="732" count="1"/>
+    <ingredient id="9511" count="1"/>
+  </item>
+
+<!-- crystal b armor-->
+  <item id="25">
+    <production id="950" count="1"/>
+    <ingredient id="9511" count="1"/>
+  </item>
+
+  <!-- golden scroll -->
+    <item id="32">
+    <production id="19000" count="1"/>
+    <ingredient id="9511" count="1"/>
+  </item>
+    <item id="33">
+    <production id="19005" count="1"/>
+    <ingredient id="9511" count="1"/>
+  </item>
+
+
+<!-- boss scrolls -->
+   <item id="1">
+    <production id="14049" count="1"/>
+    <ingredient id="9511" count="1"/>
+  </item>
+  <item id="2">
+    <production id="14050" count="1"/>
+    <ingredient id="9511" count="1"/>
+  </item>
+  <item id="3">
+    <production id="14051" count="1"/>
+    <ingredient id="9511" count="1"/>
+  </item>
+  <item id="4">
+    <production id="14052" count="1"/>
+   <ingredient id="9511" count="1"/>
+  </item>
+  <item id="5">
+    <production id="14053" count="1"/>
+   <ingredient id="9511" count="1"/>
+  </item>
+   <item id="6">
+    <production id="14054" count="1"/>
+    <ingredient id="9511" count="1"/>
+  </item>
+   <item id="7">
+    <production id="14055" count="1"/>
+    <ingredient id="9511" count="1"/>
+  </item>
+  
+   <item id="47">
+    <production id="4422" count="1"/>
+    <ingredient id="9511" count="1"/>
+  </item>
+   <item id="47">
+    <production id="4423" count="1"/>
+    <ingredient id="9511" count="1"/>
+  </item>
+   <item id="47">
+    <production id="4424" count="1"/>
+    <ingredient id="9511" count="1"/>
+  </item>
+
+
+
+<!-- skin shop-->
+
+	<item id="3">
+		<ingredient id="9511" count="1"/>
+		<production id="15001" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9511" count="1"/>
+		<production id="15002" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9511" count="1"/>
+		<production id="15003" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9511" count="1"/>
+		<production id="15004" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9511" count="1"/>
+		<production id="15005" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9511" count="1"/>
+		<production id="15006" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9511" count="1"/>
+		<production id="15007" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9511" count="1"/>
+		<production id="15012" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9511" count="1"/>
+		<production id="15014" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9511" count="1"/>
+		<production id="15016" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9511" count="1"/>
+		<production id="15017" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9511" count="1"/>
+		<production id="15018" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9511" count="1"/>
+		<production id="15019" count="1" />
+	</item>
+	<item id="3">
+		<ingredient id="9511" count="1"/>
+		<production id="15020" count="1" />
+	</item>
+</list>

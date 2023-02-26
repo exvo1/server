@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+<!-- locs: respawn locs after player death , will be selected randomized -->
+
+<zone shape="Cylinder" minZ="-5500" maxZ="-2500" rad="11500">   <!-- PI -->
+	<stat name="id" val="1" />
+	<stat name="name" val="Primeval Island" />
+	<stat name="time" val="3600" /> <!-- time in seconds (3600 sec = 1 hour)-->
+	<stat name="locs" val="10468,-24569,-3650;9756,-22253,-3696;8320,-23627,-3711" />
+	<stat name="rewards" val="57,1" />
+	<stat name="disabledClasses" val="" />
+	<stat name="disabledItems" val="" />
+	<node x="6445" y="-18714" />
+<!--<spawn x="10280" y="-23832" z="-3664" />-->
+</zone>
+
+<zone shape="Cylinder" minZ="-11000" maxZ="-7000" rad="4000"><!-- Garden of Eva -->
+	<stat name="id" val="2" />
+	<stat name="name" val="Garden of Eva" />
+	<stat name="time" val="3600" /> <!-- time in seconds (3600 sec = 1 hour)-->
+	<stat name="rewards" val="57,1" />
+	<stat name="locs" val="82064,251822,-10592;80857,251292,-10880;82591,250882,-10749;84699,251295,-10880;82528,253606,-10823;83010,252497,-10595" />
+	<stat name="disabledClasses" val="" />
+	<stat name="disabledItems" val="" />
+	<node x="82581" y="252073" />
+	<spawn x="83301" y="251709" z="-10641" />
+</zone>
+
+
+</list>

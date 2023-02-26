@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<item id="19000" type="EtcItem" name="Custom Scroll: Enchant Weapon (Grade S)">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="price" val="500000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="is_stackable" val="true" />
+
+	</item>
+	<item id="19001" type="EtcItem" name="Custom Scroll: Enchant Weapon (Grade A)">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="price" val="500000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="is_stackable" val="true" />
+
+	</item>
+	<item id="19002" type="EtcItem" name="Custom Scroll: Enchant Weapon (Grade B)">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="price" val="500000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="is_stackable" val="true" />
+
+	</item>
+
+	<item id="19005" type="EtcItem" name="Custom Scroll: Enchant Armor (Grade S)">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="price" val="500000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="is_stackable" val="true" />
+
+	</item>
+	<item id="19006" type="EtcItem" name="Custom Scroll: Enchant Armor (Grade A)">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="price" val="500000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="is_stackable" val="true" />
+
+	</item>
+	<item id="19007" type="EtcItem" name="Custom Scroll: Enchant Armor (Grade B)">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="price" val="500000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="is_stackable" val="true" />
+
+	</item>
+
+</list>
+	

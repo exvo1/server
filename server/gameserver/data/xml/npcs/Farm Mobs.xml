@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<npc id="29069" name="Hall Keeper Captain" title="Party Farm">
+		<set name="usingServerSideName" val="false"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="21"/>
+		<set name="height" val="40"/>
+		<set name="rHand" val="78"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="25000"/>
+		<set name="sp" val="9000"/>
+		<set name="hp" val="350000"/> <!-- 401551 -->
+		<set name="mp" val="1809"/>
+		<set name="hpRegen" val="0"/>
+		<set name="mpRegen" val="5"/>
+		<set name="pAtk" val="6900"/>
+		<set name="pDef" val="1400"/>
+		<set name="mAtk" val="1386"/>
+		<set name="mDef" val="1050"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="60"/>
+		<set name="int" val="76"/>
+		<set name="dex" val="73"/>
+		<set name="wit" val="70"/>
+		<set name="con" val="57"/>
+		<set name="men" val="80"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="183"/>
+		<set name="runSpd" val="153"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="true" seedable="false"/>
+		<skills>
+			<skill id="4045" level="1"/>
+			<skill id="4416" level="10"/>
+			<skill id="5095" level="1"/>
+			<skill id="5096" level="1"/>
+			<skill id="4071" level="5"/><!-- Resist Archer --> 
+  			<skill id="4428" level="5"/><!-- Resist Bigsword -->
+			<skill id="4425" level="5"/><!-- Resist Blunt -->
+		</skills>
+		<drops>
+			<!-- Farm -->
+			<category id="1">
+				<drop itemid="9500" min="600" max="1300" chance="1000000"/>
+			</category>
+			
+			<!-- Rep Item -->
+			<category id="4">
+				<drop itemid="6690" min="1" max="1" chance="150000"/>
+			</category>
+			
+			<!-- VIP 1 Day -->
+			<category id="6">
+				<drop itemid="10000" min="1" max="1" chance="80000"/>
+			</category>
+			
+			<!-- High Ls -->
+			<category id="8">
+				<drop itemid="8752" min="5" max="10" chance="1000000"/>
+			</category>
+			
+			<!-- Top Ls -->
+			<category id="8">
+				<drop itemid="8762" min="4" max="8" chance="1000000"/>
+			</category>
+	
+			<!-- Cews -->
+			<category id="14">
+				<drop itemid="961" min="1" max="1" chance="400000"/>
+			</category>
+			
+			<!-- Ceas -->
+			<category id="15">
+				<drop itemid="961" min="1" max="2" chance="500000"/>
+			</category>		
+			
+			<!-- Custom Scr Weap -->
+			<category id="14">
+				<drop itemid="19000" min="1" max="1" chance="50000"/>
+			</category>
+			
+			<!-- Custom Scr Armor -->
+			<category id="15">
+				<drop itemid="19005" min="1" max="1" chance="80000"/>
+			</category>	
+			
+			
+		</drops>
+	</npc>
+
+	<npc id="15097" name="Embryo Dark Templer" title="Farm Zone 1">
+		<set name="usingServerSideName" val="false"/>
+		<set name="usingServerSideTitle" val="false"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="18"/>
+		<set name="height" val="42.5"/>
+		<set name="rHand" val="92"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="74660"/>
+		<set name="sp" val="64800"/>
+		<set name="hp" val="5000"/> <!-- 9100 -->
+		<set name="mp" val="1036.8"/>
+		<set name="hpRegen" val="6.5"/>
+		<set name="mpRegen" val="2.4"/>
+		<set name="pAtk" val="880"/>
+		<set name="pDef" val="720"/> <!-- 1150 -->
+		<set name="mAtk" val="28"/>
+		<set name="mDef" val="760"/> <!-- 900 -->
+		<set name="crit" val="8"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="120"/>
+		<set name="runSpd" val="184"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="200" ssRate="5" spsCount="100" spsRate="10" aggro="0" canMove="true" seedable="true"/>
+		<skills>
+			<skill id="4379" level="7"/> <!-- Resist poles -->
+		</skills>
+		<drops>
+			<category id="1">
+				<drop itemid="9500" min="15" max="25" chance="1000000"/>
+			</category>
+			<category id="3">
+				<drop itemid="57" min="5000000" max="5000000" chance="1000000"/>
+			</category>
+		</drops>
+	</npc>
+
+	<npc id="15098" name="Embryo Dark Templer" title="Farm Zone 2">  <!-- id="15098" -->
+		<set name="usingServerSideName" val="false"/>
+		<set name="usingServerSideTitle" val="false"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="11"/>
+		<set name="height" val="38.5"/>
+		<set name="rHand" val="6719"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="74660"/>
+		<set name="sp" val="64800"/>
+		<set name="hp" val="5000"/> <!-- 9100 -->
+		<set name="mp" val="1036.8"/>
+		<set name="hpRegen" val="6.5"/>
+		<set name="mpRegen" val="2.4"/>
+		<set name="pAtk" val="880"/>
+		<set name="pDef" val="720"/> <!-- 1150 -->
+		<set name="mAtk" val="28"/>
+		<set name="mDef" val="760"/> <!-- 900 -->
+		<set name="crit" val="8"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="120"/>
+		<set name="runSpd" val="184"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="200" ssRate="5" spsCount="100" spsRate="10" aggro="0" canMove="true" seedable="true"/>
+		<skills>
+			<skill id="4379" level="7"/> <!-- Resist poles -->
+		</skills>
+		<drops>
+			<category id="1">
+				<drop itemid="9500" min="15" max="25" chance="1000000"/>
+			</category>
+			<category id="3">
+				<drop itemid="57" min="5000000" max="5000000" chance="1000000"/>
+			</category>
+		</drops>
+	</npc>
+
+	<npc id="15095" name="Embryo Dark Templer" title="Safe Farm Mob">
+		<set name="usingServerSideName" val="false"/>
+		<set name="usingServerSideTitle" val="false"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="10"/>
+		<set name="height" val="23"/>
+		<set name="rHand" val="2500"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="74660"/>
+		<set name="sp" val="64800"/>
+		<set name="hp" val="4300"/> <!-- 6000 -->
+		<set name="mp" val="1036.8"/>
+		<set name="hpRegen" val="6.5"/>
+		<set name="mpRegen" val="2.4"/>
+		<set name="pAtk" val="880"/>
+		<set name="pDef" val="720"/> <!-- 1150 -->
+		<set name="mAtk" val="28"/>
+		<set name="mDef" val="760"/> <!-- 900 -->
+		
+		<set name="crit" val="8"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="120"/>
+		<set name="runSpd" val="184"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="200" ssRate="5" spsCount="100" spsRate="10" aggro="0" canMove="true" seedable="true"/>
+		<skills>
+			<skill id="4379" level="7"/> <!-- Resist poles -->
+		</skills>
+		<drops>
+			<category id="1">
+				<drop itemid="9500" min="10" max="10" chance="1000000"/>
+			</category>
+			<category id="3">
+				<drop itemid="57" min="1000000" max="1000000" chance="100000"/>
+			</category>
+		</drops>
+	</npc>
+
+
+
+
+
+
+
+</list>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+
+
+
+<!-- specian GC -->
+<zone id="7000" shape="Cuboid" minZ="-6700" maxZ="-5199"><!-- Giants Cave -->
+	<node x="188000" y="60100" /> 
+	<node x="194200" y="63500" />
+
+	<spawn x="190921" y="61663" z="-6109" />
+
+</zone>
+
+<zone shape="Cylinder" minZ="-11000" maxZ="11000" rad="4000"> <!-- Shadith -->
+	<node x="115003" y="-39547" />
+	<spawn x="114855" y="-40521" z="-2556" />						
+</zone>	
+
+<zone shape="Cylinder" minZ="-11000" maxZ="11000" rad="4000"> <!-- Horus -->
+	<node x="106825" y="-41592" />
+	<spawn x="106825" y="-41592" z="-1831" />						
+</zone>	
+
+<zone shape="Cylinder" minZ="-11000" maxZ="11000" rad="3000"> <!-- Mos-->
+	<node x="109930" y="-37259" />
+	<spawn x="109930" y="-37259" z="-1263" />						
+</zone>	
+
+
+<zone shape="Cylinder" minZ="-11000" maxZ="11000" rad="3500"> <!-- Queen Shyeed -->
+	<node x="79630" y="-55470" />
+	<spawn x="79630" y="-55470" z="-6113" />						
+</zone>
+
+<zone shape="Cylinder" minZ="-11000" maxZ="11000" rad="3200"> <!-- Skylancer -->
+	<node x="-16393" y="-53061" />
+	<spawn x="-16393" y="-53061" z="-10452" />						
+</zone>
+
+
+<zone shape="Cylinder" minZ="-11000" maxZ="11000" rad="3500"> <!-- Ember -->
+	<node x="184724" y="-106337" />
+	<spawn x="184724" y="-106337" z="-6313" />						
+</zone>
+
+<zone shape="Cylinder" minZ="-11000" maxZ="11000" rad="3500"> <!-- Galaxia -->
+	<node x="184724" y="-106337" />
+	<spawn x="115254" y="16677" z="9004" />						
+</zone>
+
+
+<zone shape="Cylinder" minZ="-11000" maxZ="11000" rad="3500"> <!-- Ipos-->
+	<node x="157967" y="-13524" />
+	<spawn x="157967" y="-13524" z="-2796" />						
+</zone>
+
+
+	<!-- Boss Zones -->
+	<zone id="110000" shape="NPoly" minZ="-4815" maxZ="-315"><!-- Zaken Boss -->
+		<node x="50797" y="213515" />
+		<node x="57617" y="213510" />
+		<node x="57669" y="221683" />
+		<node x="50773" y="221632" />
+	</zone>
+	<zone id="110001" shape="NPoly" minZ="-8380" maxZ="-4880"><!-- Antharas Boss -->
+		<node x="173469" y="110431" />
+		<node x="188081" y="110284" />
+		<node x="188132" y="119249" />
+		<node x="173386" y="119391" />
+	</zone>
+	<zone id="110002" shape="NPoly" minZ="10061" maxZ="11061"><!-- Baium Boss -->
+		<node x="111022" y="16177" />
+		<node x="114510" y="12623" />
+		<node x="118142" y="15790" />
+		<node x="114773" y="19589" />
+	</zone>
+
+	<zone id="110010" shape="NPoly" minZ="-2572" maxZ="5428"><!-- Valakas Boss -->
+		<node x="196866" y="-130845" />
+		<node x="229289" y="-130860" />
+		<node x="229176" y="-98508" />
+		<node x="196880" y="-98498" />
+	</zone>
+	<zone id="110012" shape="NPoly" minZ="-5200" maxZ="-4680"><!-- Frintezza -->
+		<node x="172031" y="-90127" />
+		<node x="176428" y="-90089" />
+		<node x="176428" y="-74051" />
+		<node x="172057" y="-74108" />
+	</zone>
+
+<zone id="110017"  shape="Cylinder" minZ="-6947" maxZ="-4547" rad="4700">  <!-- Queen Ant Boss --> 
+	<node x="-21686" y="183301" />
+	<spawn x="-21800" y="183301" z="-5725" />
+</zone>
+
+
+
+</list>

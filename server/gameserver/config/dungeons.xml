@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Dungeon is Currently Disabled  -->
+<!-- To enable it you need to Change all locations to a zone existing in l2 world -->
+<!-- Create a NPC with type DungeonManagerNpc  -->
+<!-- Also edit xml/npcs/dungeon.xml mobs idTemplate ID to an existing mob or your custom one -->
+
+<list>
+	<dungeon id="1" name="Solo Story Mode" players="1" rewards="" rewardHtm="data/html/mods/dungeon/solo_rewards.htm">
+		<stage order="1" loc="-118349,-49055,7932" teleport="true" minutes="5">
+			<mob npcId="62000" locs="-118028,-49055,7932;-117781,-49087,7932;-117537,-49432,7932;-117749,-49864,7932"/>
+		</stage>
+		<stage order="2" loc="-118349,-49055,7932" teleport="false" minutes="5">
+			<mob npcId="62001" locs="-115062,-50038,7930;-114093,-49900,7927;-114041,-49045,7927;-115343,-48865,7927;-115632,-49175,7927;-115888,-50206,7927;-114846,-50344,7930;-114831,-49738,7932"/>
+		</stage>
+		<stage order="3" loc="-118349,-49055,7932" teleport="false" minutes="5">
+			<mob npcId="62001" locs="-112317,-49969,7927;-111542,-50059,7927;-111245,-49658,7927;-111268,-49064,7927;-111702,-48946,7927;-112241,-49048,7927;-111811,-49538,7927;-111624,-49794,7927;-111513,-49202,7927;-112010,-49188,7927"/>
+		</stage>
+		<stage order="4" loc="-115134,-46157,7327" teleport="true" minutes="10">
+			<mob npcId="62002" locs="-115011,-46778,7324"/>
+		</stage>
+		<stage order="5" loc="-115070,-52898,7327" teleport="true" minutes="15">
+			<mob npcId="62003" locs="-114260,-52365,7327"/>
+		</stage>
+	</dungeon>
+	<dungeon id="2" name="Quatro Hard Mode" players="4" rewards="6622,1;8762,3" rewardHtm="NULL">
+		<stage order="1" loc="-118349,-49055,7932" teleport="true" minutes="5">
+			<mob npcId="62100" locs="-118028,-49055,7932;-117781,-49087,7932;-117537,-49432,7932;-117749,-49864,7932"/>
+		</stage>
+		<stage order="3" loc="-118349,-49055,7932" teleport="false" minutes="5">
+			<mob npcId="62101" locs="-115062,-50038,7930;-114093,-49900,7927;-114041,-49045,7927;-115343,-48865,7927;-115632,-49175,7927;-115888,-50206,7927;-114846,-50344,7930;-114831,-49738,7932"/>
+		</stage>
+		<stage order="4" loc="-118349,-49055,7932" teleport="false" minutes="5">
+			<mob npcId="62101" locs="-112317,-49969,7927;-111542,-50059,7927;-111245,-49658,7927;-111268,-49064,7927;-111702,-48946,7927;-112241,-49048,7927;-111811,-49538,7927;-111624,-49794,7927;-111513,-49202,7927;-112010,-49188,7927"/>
+		</stage>
+		<stage order="5" loc="-118349,-49055,7932" teleport="false" minutes="5">
+			<mob npcId="62102" locs="-115062,-50038,7930;-114093,-49900,7927;-114041,-49045,7927;-115343,-48865,7927;-115632,-49175,7927;-115888,-50206,7927;-114846,-50344,7930;-114831,-49738,7932"/>
+		</stage>
+		<stage order="6" loc="-115134,-46157,7327" teleport="true" minutes="5">
+			<mob npcId="62103" locs="-115011,-46778,7324"/>
+		</stage>
+		<stage order="7" loc="-115070,-52898,7327" teleport="true" minutes="10">
+			<mob npcId="62104" locs="-114260,-52365,7327"/>
+		</stage>
+	</dungeon>
+</list>

@@ -1,0 +1,11 @@
+requirements:
+*MySql 8
+*Java 11
+
+admin account:
+*username: admin
+*password: admin
+
+CAREFUL:
+all Potions(mp/hp/cp),arrows,soulshots is on Infinity Items.xml
+and removed from its original xml files.

@@ -1,0 +1,4 @@
+#the hexID to auth into login
+#Fri Apr 22 11:20:29 EEST 2022
+HexID=-cc412c541fa5d1f901ee50ee105e06
+ServerID=1

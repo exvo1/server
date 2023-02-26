@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<settings>
+  <thinkIteration>200</thinkIteration>
+  <defaultTitle></defaultTitle>
+  <defaultTargetingRange>2000</defaultTargetingRange>
+  <defaultAttackPlayerType>Innocent</defaultAttackPlayerType>
+  <defaultTargetingPreference>Closest</defaultTargetingPreference>
+  <useManaPots>true</useManaPots>
+  <useQuickHealingPots>true</useQuickHealingPots>
+  <useGreaterHealingPots>true</useGreaterHealingPots>
+  <useGreaterCpPots>false</useGreaterCpPots>
+</settings>

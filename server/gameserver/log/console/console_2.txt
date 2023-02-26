@@ -1,0 +1,227 @@
+[22-04-2022 08:23:11]	INFO	---------------------------------------------------------------------=[ aCis ]
+[22-04-2022 08:23:11]	INFO	Loading gameserver configuration files.
+[22-04-2022 08:23:11]	SEVERE	An error occured loading './config/aelia.properties' config.
+[22-04-2022 08:23:12]	INFO	Initializing ThreadPool.
+[22-04-2022 08:23:12]	INFO	----------------------------------------------------------------=[ IdFactory ]
+[22-04-2022 08:23:12]	INFO	Updated characters online status.
+[22-04-2022 08:23:13]	INFO	Cleaned 0 elements from database.
+[22-04-2022 08:23:13]	INFO	Cleaned 0 expired timestamps from database.
+[22-04-2022 08:23:13]	INFO	Initializing 205824 objectIds pool, with 17667 used ids.
+[22-04-2022 08:23:13]	INFO	--------------------------------------------------------------------=[ World ]
+[22-04-2022 08:23:13]	INFO	World grid (176 by 256) is now set up.
+[22-04-2022 08:23:13]	INFO	Loaded regions.
+[22-04-2022 08:23:13]	INFO	Loaded 1 announcements.
+[22-04-2022 08:23:13]	INFO	Loaded 1 server variables.
+[22-04-2022 08:23:13]	INFO	--------------------------------------=[ Loading Custom configuration files. ]
+[22-04-2022 08:23:13]	INFO	-----------------------------------------------------------------=[ Balancer ]
+[22-04-2022 08:23:13]	INFO	ClassBalanceManager: Loaded 0 balanced classe(s).
+[22-04-2022 08:23:13]	INFO	SkillBalanceManager: Loaded 0 balanced skill(s).
+[22-04-2022 08:23:13]	INFO	-------------------------------------------------------------=[ Hwid Manager ]
+[22-04-2022 08:23:13]	INFO	--------------------------------------------------------------=[ Icon Tables ]
+[22-04-2022 08:23:13]	CONFIG	IconsTable: Succesfully loaded 9190 icons, in 40.0 Milliseconds.
+[22-04-2022 08:23:13]	INFO	----------------------------------------------------------=[ Enchant Scrolls ]
+[22-04-2022 08:23:13]	INFO	-EnchantTable: Loaded 36 enchants.
+[22-04-2022 08:23:13]	INFO	-----------------------------------------------------------=[ Dungeon Events ]
+[22-04-2022 08:23:14]	INFO	DungeonManager: Loaded 2 dungeon templates
+[22-04-2022 08:23:14]	INFO	--------------------------------------------------------=[ Tournament Events ]
+[22-04-2022 08:23:14]	INFO	Tournament: Next Event Fri Apr 22 12:30:00 EEST 2022
+[22-04-2022 08:23:14]	INFO	---------------------------------------------------------=[ VIP Drop Manager ]
+[22-04-2022 08:23:14]	INFO	-------------------------------------------------------------=[ Skin Manager ]
+[22-04-2022 08:23:14]	INFO	SkinTable: Loaded 18 skins.
+[22-04-2022 08:23:14]	INFO	-------------------------------------------------------------------=[ Events ]
+[22-04-2022 08:23:14]	INFO	Capture The Flag Engine: is Started.
+[22-04-2022 08:23:14]	INFO	Deathmatch Engine: is Started.
+[22-04-2022 08:23:14]	INFO	Team vs Team Engine: is Started.
+[22-04-2022 08:23:14]	INFO	-----------------------------------------------------------=[ Auto Pvp Zones ]
+[22-04-2022 08:23:20]	INFO	SkillTable: Loaded 29807 skills.
+[22-04-2022 08:23:23]	INFO	Loaded 27 zones classes and total 969 zones.
+[22-04-2022 08:23:23]	INFO	IPManager - Loaded.
+[22-04-2022 08:23:23]	INFO	-FakePcsTable: Loaded 2 NPC to PC templates.
+[22-04-2022 08:23:23]	CONFIG	-Loaded Custom Announce System. 
+[22-04-2022 08:23:23]	CONFIG	-Loaded Custom Anti Farm System.
+[22-04-2022 08:23:23]	CONFIG	-Vote Reward
+[22-04-2022 08:23:23]	INFO	------------------------------------------=[ Auto Restart System Is Disabled ]
+[22-04-2022 08:23:23]	INFO	-------------------------------------------------------------------=[ Skills ]
+[22-04-2022 08:23:23]	INFO	Loaded 117 fishing skills.
+[22-04-2022 08:23:23]	INFO	Loaded 64 clan skills.
+[22-04-2022 08:23:23]	INFO	Loaded 14550 enchant skills.
+[22-04-2022 08:23:23]	INFO	--------------------------------------------------------------------=[ Items ]
+[22-04-2022 08:23:25]	INFO	ItemTable: Highest used itemID : 30003
+[22-04-2022 08:23:25]	INFO	Loaded 14 summon items.
+[22-04-2022 08:23:25]	INFO	Loaded 180 hennas.
+[22-04-2022 08:23:25]	INFO	Loaded 675 buyLists.
+[22-04-2022 08:23:26]	INFO	Loaded 135 multisell.
+[22-04-2022 08:23:26]	INFO	Loaded 871 recipes.
+[22-04-2022 08:23:26]	INFO	Loaded 60 armor sets.
+[22-04-2022 08:23:26]	INFO	Loaded 270 fish.
+[22-04-2022 08:23:26]	INFO	Loaded 334 spellbooks.
+[22-04-2022 08:23:26]	INFO	Loaded 39 Soul Crystals data and 124 NPCs data.
+[22-04-2022 08:23:26]	INFO	Loaded 4 sets of augmentation stats.
+[22-04-2022 08:23:26]	INFO	Loaded 170 blue, 1070 purple and 540 red Life-Stone skills.
+[22-04-2022 08:23:26]	INFO	Loaded 2 cursed weapons.
+[22-04-2022 08:23:26]	INFO	-------------------------------------------------------------------=[ Admins ]
+[22-04-2022 08:23:26]	INFO	Loaded 10 access levels.
+[22-04-2022 08:23:26]	INFO	Loaded 284 admin command rights.
+[22-04-2022 08:23:26]	INFO	Loaded 0 bookmarks.
+[22-04-2022 08:23:26]	INFO	---------------------------------------------------------------=[ Characters ]
+[22-04-2022 08:23:26]	INFO	Loaded 89 player classes templates.
+[22-04-2022 08:23:26]	INFO	Loaded 522 player infos.
+[22-04-2022 08:23:26]	INFO	Loaded 14 newbie buffs.
+[22-04-2022 08:23:26]	INFO	Loaded 779 teleport locations.
+[22-04-2022 08:23:26]	INFO	Loaded 112 RaidPoints entries.
+[22-04-2022 08:23:26]	INFO	---------------------------------------------------------=[ Community server ]
+[22-04-2022 08:23:26]	INFO	Loaded 23 forums.
+[22-04-2022 08:23:26]	INFO	--------------------------------------------------------------------=[ Clans ]
+[22-04-2022 08:23:26]	INFO	Loaded 0 crests.
+[22-04-2022 08:23:26]	INFO	Loaded 21 clans.
+[22-04-2022 08:23:26]	INFO	----------------------------------------------------=[ Geodata & Pathfinding ]
+[22-04-2022 08:23:27]	INFO	Loaded 0 L2D region files.
+[22-04-2022 08:23:27]	INFO	Loaded 32 node buffers.
+[22-04-2022 08:23:27]	INFO	--------------------------------------------------------------------=[ Zones ]
+[22-04-2022 08:23:27]	INFO	-----------------------------------------------------=[ Castles & Clan Halls ]
+[22-04-2022 08:23:27]	INFO	Loaded 9 castles.
+[22-04-2022 08:23:27]	INFO	Loaded 44 clan halls.
+[22-04-2022 08:23:27]	INFO	------------------------------------------------------------=[ Task Managers ]
+[22-04-2022 08:23:27]	INFO	Restored 0 items on ground.
+[22-04-2022 08:23:27]	INFO	--------------------------------------------------------------=[ Auto Spawns ]
+[22-04-2022 08:23:27]	INFO	Loaded 124 auto spawns.
+[22-04-2022 08:23:27]	INFO	--------------------------------------------------------------=[ Seven Signs ]
+[22-04-2022 08:23:27]	INFO	Currently on Seal Validation period.
+[22-04-2022 08:23:27]	INFO	The Seal of Gnosis remains unclaimed.
+[22-04-2022 08:23:27]	INFO	The Seal of Avarice remains unclaimed.
+[22-04-2022 08:23:27]	INFO	The Seal of Strife remains unclaimed.
+[22-04-2022 08:23:27]	INFO	The Seven Signs competition ended with a tie last week.
+[22-04-2022 08:23:27]	INFO	Next Seven Signs period change set to Mon Apr 25 18:00:00 EEST 2022.
+[22-04-2022 08:23:27]	INFO	Next Seven Signs period begins in 3 days, 9 hours and 36 mins.
+[22-04-2022 08:23:27]	INFO	Seven Signs Festival initialization was bypassed due to Seal Validation being under effect.
+[22-04-2022 08:23:27]	INFO	------------------------------------------------------------=[ Manor Manager ]
+[22-04-2022 08:23:27]	INFO	Loaded 256 seeds.
+[22-04-2022 08:23:27]	INFO	---------------------------------------------------------------------=[ NPCs ]
+[22-04-2022 08:23:27]	INFO	Loaded 70 available buffs.
+[22-04-2022 08:23:27]	INFO	Loaded 2 herbs groups.
+[22-04-2022 08:23:28]	INFO	Loaded 6535 NPC templates.
+[22-04-2022 08:23:28]	INFO	Loaded 12 Walker routes.
+[22-04-2022 08:23:29]	INFO	Loaded 547 doors templates.
+[22-04-2022 08:23:29]	INFO	Loaded 29 static objects.
+[22-04-2022 08:23:29]	WARNING	Couldn't find the nearest ClanHall for Chamberlain - 35438 (268477448).
+[22-04-2022 08:23:29]	WARNING	Invalid template 18888 found on spawn load.
+[22-04-2022 08:23:29]	WARNING	RB template 29046 is in regular spawnlist, move it in raidboss_spawnlist.
+[22-04-2022 08:23:29]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:29]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:29]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:29]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:29]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:29]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:29]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:29]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:29]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:30]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:30]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:30]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:30]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:30]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:30]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:30]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:30]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:30]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:30]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:30]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:30]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:30]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:30]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:30]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:30]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:30]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:30]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:30]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:30]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:30]	WARNING	Invalid template 13 found on spawn load.
+[22-04-2022 08:23:30]	INFO	Loaded 40639 spawns.
+[22-04-2022 08:23:30]	WARNING	Couldn't load raidboss #68.
+[22-04-2022 08:23:30]	WARNING	Couldn't load raidboss #69.
+[22-04-2022 08:23:30]	WARNING	Couldn't load raidboss #72.
+[22-04-2022 08:23:30]	WARNING	Couldn't load raidboss #73.
+[22-04-2022 08:23:30]	WARNING	Couldn't load raidboss #74.
+[22-04-2022 08:23:30]	WARNING	Couldn't load raidboss #75.
+[22-04-2022 08:23:30]	WARNING	Couldn't load raidboss #76.
+[22-04-2022 08:23:30]	WARNING	Couldn't load raidboss #77.
+[22-04-2022 08:23:30]	WARNING	Couldn't load raidboss #78.
+[22-04-2022 08:23:30]	WARNING	Couldn't load raidboss #79.
+[22-04-2022 08:23:30]	WARNING	Couldn't load raidboss #80.
+[22-04-2022 08:23:30]	WARNING	Couldn't load raidboss #81.
+[22-04-2022 08:23:30]	WARNING	Couldn't load raidboss #82.
+[22-04-2022 08:23:30]	WARNING	Couldn't load raidboss #83.
+[22-04-2022 08:23:30]	WARNING	Couldn't load raidboss #84.
+[22-04-2022 08:23:30]	WARNING	Couldn't load raidboss #85.
+[22-04-2022 08:23:30]	WARNING	Couldn't load raidboss #86.
+[22-04-2022 08:23:30]	WARNING	Couldn't load raidboss #666671.
+[22-04-2022 08:23:30]	INFO	Loaded 177 raid bosses.
+[22-04-2022 08:23:30]	INFO	Loaded 7 GrandBosses instances.
+[22-04-2022 08:23:30]	INFO	Loaded night creatures spawns.
+[22-04-2022 08:23:30]	INFO	Loaded Dimensional Rift rooms.
+[22-04-2022 08:23:30]	INFO	-------------------------------------------------------=[ Olympiads & Heroes ]
+[22-04-2022 08:23:30]	INFO	Loaded 18 stadiums.
+[22-04-2022 08:23:30]	INFO	3936 minutes until Olympiad period ends.
+[22-04-2022 08:23:30]	INFO	Next weekly Olympiad change is in 10079 minutes.
+[22-04-2022 08:23:30]	INFO	---------------------------=[ ---Loading Olympiad Custom period Announce.--- ]
+[22-04-2022 08:23:30]	INFO	Olympiad System: 2 days, 17 hours and 36 mins. until period ends
+[22-04-2022 08:23:30]	INFO	Olympiad System: Next weekly change in 0 days, 0 hours and 36 mins.
+[22-04-2022 08:23:30]	INFO	----------------------------------------------------------------=[ --------- ]
+[22-04-2022 08:23:30]	INFO	Loaded 0 nobles.
+[22-04-2022 08:23:30]	INFO	Olympiad competition period starts in 0 days, 9 hours and 36 mins.
+[22-04-2022 08:23:30]	INFO	Olympiad event starts/started @ Fri Apr 22 18:00:00 EEST 2022.
+[22-04-2022 08:23:30]	INFO	Loaded 0 fights for: ExtremeCha0s.
+[22-04-2022 08:23:30]	INFO	Loaded 20 diary entries for hero: ExtremeCha0s.
+[22-04-2022 08:23:30]	INFO	Loaded 0 fights for: Ghostface.
+[22-04-2022 08:23:30]	INFO	Loaded 27 diary entries for hero: Ghostface.
+[22-04-2022 08:23:30]	INFO	Loaded 0 fights for: xDD.
+[22-04-2022 08:23:30]	INFO	Loaded 24 diary entries for hero: xDD.
+[22-04-2022 08:23:30]	INFO	Loaded 0 fights for: HappyDeath.
+[22-04-2022 08:23:30]	INFO	Loaded 18 diary entries for hero: HappyDeath.
+[22-04-2022 08:23:30]	INFO	Loaded 1 fights for: Shad0ww001.
+[22-04-2022 08:23:30]	INFO	Loaded 5 diary entries for hero: Shad0ww001.
+[22-04-2022 08:23:30]	INFO	Loaded 0 fights for: QWE.
+[22-04-2022 08:23:30]	INFO	Loaded 6 diary entries for hero: QWE.
+[22-04-2022 08:23:30]	INFO	Loaded 0 fights for: DonSmokey.
+[22-04-2022 08:23:30]	INFO	Loaded 28 diary entries for hero: DonSmokey.
+[22-04-2022 08:23:30]	INFO	Loaded 7 heroes and 7 all time heroes.
+[22-04-2022 08:23:30]	INFO	----------------------------------------------------------=[ Four Sepulchers ]
+[22-04-2022 08:23:30]	INFO	Loaded 20 Mysterious-Box.
+[22-04-2022 08:23:30]	INFO	Loaded 39 Key-Box.
+[22-04-2022 08:23:30]	INFO	Loaded 716 physical type monsters.
+[22-04-2022 08:23:30]	INFO	Loaded 716 magical type monsters.
+[22-04-2022 08:23:30]	INFO	Loaded 4 Shadows of Halisha.
+[22-04-2022 08:23:30]	INFO	Loaded 92 Duke's Hall Gatekeepers.
+[22-04-2022 08:23:30]	INFO	Loaded 68 Emperor's Grave monsters.
+[22-04-2022 08:23:30]	INFO	Loaded 4 managers.
+[22-04-2022 08:23:30]	INFO	---------------------------------------------------------=[ Quests & Scripts ]
+[22-04-2022 08:23:30]	INFO	Loaded 380 regular scripts and 5 scheduled scripts.
+[22-04-2022 08:23:30]	INFO	-------------------------------------------------------------------=[ Events ]
+[22-04-2022 08:23:30]	INFO	Loaded 5950 Derby Track records, currently on race #5951.
+[22-04-2022 08:23:30]	INFO	Loaded 0 couples.
+[22-04-2022 08:23:30]	INFO	A new Fishing Championship event period has started.
+[22-04-2022 08:23:30]	INFO	-----------------------------------------------------------------=[ Handlers ]
+[22-04-2022 08:23:30]	INFO	Loaded 269 admin command handlers.
+[22-04-2022 08:23:30]	INFO	Loaded 14 chat handlers.
+[22-04-2022 08:23:30]	INFO	Loaded 34 item handlers.
+[22-04-2022 08:23:30]	INFO	Loaded 73 skill handlers.
+[22-04-2022 08:23:30]	INFO	Loaded 15 user command handlers.
+[22-04-2022 08:23:30]	INFO	-------------------------------------------------------------------=[ System ]
+[22-04-2022 08:23:32]	INFO	Loaded 32002 fake player names.
+[22-04-2022 08:23:32]	INFO	Deadlock detector is disabled.
+[22-04-2022 08:23:32]	INFO	Gameserver has started, used memory: 301 / 4096 Mo.
+[22-04-2022 08:23:32]	INFO	Maximum allowed players: 2000.
+[22-04-2022 08:23:32]	INFO	[Server Loaded in 21 seconds].
+[22-04-2022 08:23:32]	INFO	--------------------------------------------------------------------=[ Login ]
+[22-04-2022 08:23:32]	INFO	Connecting to login on 127.0.0.1:9014.
+[22-04-2022 08:23:32]	INFO	Registered as server: [1] Bartz.
+[22-04-2022 08:24:08]	INFO	Admin has logged in with Master access level.
+[22-04-2022 08:34:08]	INFO	Admin has logged in with Master access level.
+[22-04-2022 09:00:07]	INFO	Loaded day creatures spawns.
+[22-04-2022 09:03:52]	INFO	Saved boss zones data.
+[22-04-2022 09:03:59]	INFO	Loaded 27 zones classes and total 971 zones.
+[22-04-2022 09:05:00]	INFO	TvTEventEngine: Lack of registration, abort event.
+[22-04-2022 09:05:17]	WARNING	No handler registered for admin command 'admin_loc'.
+[22-04-2022 09:06:44]	WARNING	No handler registered for admin command 'admin_zone_show'.
+[22-04-2022 09:11:08]	INFO	Saved boss zones data.
+[22-04-2022 09:11:15]	INFO	Loaded 27 zones classes and total 971 zones.

@@ -1,0 +1,681 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+<!-- Inside <and> olympiad=false will not be applied in olympiad , the other will be applied -->
+
+<!-- human fighter -->
+	<skill id="10050" levels="1" name="duelist">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+				
+			</customand>	
+
+		<!-- Oly -->
+			<customand olympiad="true">
+				
+			</customand>	
+		</for>
+	</skill>
+	<skill id="10051" levels="1" name="Dreadnought">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+
+			</customand>
+			
+		<!-- Oly -->
+			<customand olympiad="true">
+				
+			</customand>
+		</for>
+	</skill>
+	<skill id="10052" levels="1" name="phoenix knight">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+				
+			</customand>	
+			
+		<!-- Oly -->
+			<customand olympiad="true">
+				
+			</customand>
+		</for>
+	</skill>
+	<skill id="10053" levels="1" name="hell knight">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+				
+				
+			</customand>	
+			
+		<!-- Oly -->
+			<customand olympiad="true">
+				
+			</customand>
+		</for>
+	</skill>
+
+	<skill id="10054" levels="1" name="Sagi">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+				
+
+			</customand>	
+
+		<!-- Oly -->
+			<customand olympiad="true">
+			
+			</customand>
+		</for>
+	</skill>
+	<skill id="10055" levels="1" name="adventurer">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+			
+
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+				
+				
+			</customand>	
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+		</for>
+	</skill>
+	
+
+
+
+	
+<!-- human mystic -->	
+	<skill id="10060" levels="1" name="Sorcer">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+				
+			</customand>
+
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+			
+		</for>
+	</skill>
+	
+	<skill id="10061" levels="1" name="Necro">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+				
+			</customand>	
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>		
+		</for>
+	</skill>
+	
+	<skill id="10062" levels="1" name="arcana lord">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+			
+
+
+			</customand>	
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+		</for>
+	</skill>	
+	<skill id="10063" levels="1" name="Cardinal">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+
+
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+			
+			</customand>	
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+		</for>		
+	</skill>	
+	<skill id="10064" levels="1" name="Hierophant">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+
+
+
+			</customand>	
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+		</for>		
+	</skill>	
+	
+	
+	
+<!-- dark fighter -->	
+	<skill id="10070" levels="1" name="Shillien Templar">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+				
+			</customand>	
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+		</for>		
+	</skill>
+	<skill id="10071" levels="1" name="Spectral Dancer"> <!-- bd -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+				
+			</customand>	
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+		</for>		
+	</skill>
+	<skill id="10072" levels="1" name="Ghost Hunter">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+
+				
+
+			</customand>	
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+
+		</for>		
+	</skill>
+
+	<skill id="10073" levels="1" name="Ghost Sentinel">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+				
+			</customand>	
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+		</for>
+	</skill>
+	
+	
+
+<!-- dark mystic -->
+	<skill id="10080" levels="1" name="Sph">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+				
+			</customand>	
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+		</for>
+	</skill>
+	<skill id="10081" levels="1" name="Spectral Master ">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+
+
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+				
+
+			</customand>	
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+		</for>
+	</skill>
+	<skill id="10082" levels="1" name="Shillen Sain">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+				
+
+
+			</customand>	
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+		</for>
+	</skill>	
+	
+	
+	
+
+<!-- elven fighter -->
+
+	<skill id="10090" levels="1" name="Eva's Templar">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+				
+
+			</customand>
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+		</for>
+	</skill>
+		<skill id="10091" levels="1" name="sword muse">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+		
+				
+			</customand>
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+		</for>
+	</skill>
+		<skill id="10092" levels="1" name="wild rider">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+
+			
+			</customand>
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+
+		</for>	
+	</skill>
+
+	<skill id="10093" levels="1" name="Moonlight">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+				
+			</customand>
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+		</for>
+	</skill>
+
+
+
+<!-- elven mystic -->
+
+	<skill id="10100" levels="1" name="Sps">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+				
+			</customand>	
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+		</for>
+	</skill>
+
+	<skill id="10101" levels="1" name=" Elemental Master">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+			
+			</customand>	
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+
+		</for>
+	</skill>
+	<skill id="10102" levels="1" name="Eva's Saint ">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+				
+			
+			
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+
+
+			</customand>	
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+		</for>
+	</skill>
+
+
+
+<!-- orc fighter -->
+	<skill id="10110" levels="1" name="Titan">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+
+				
+			</customand>
+		</for>
+		
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+	</skill>
+	
+	<skill id="10111" levels="1" name="Tyrant">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+
+				
+			</customand>
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+		</for>
+	</skill>	
+
+
+<!-- orc mystic -->
+	<skill id="10115" levels="1" name="Domi">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+				
+
+			</customand>	
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+		</for>
+	</skill>
+
+
+	<skill id="10116" levels="1" name="Doomcryer">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+				
+
+
+		</customand>	
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+		</for>
+	</skill>
+	
+	
+<!-- dwarf -->
+	<skill id="10118" levels="1" name="Maestro">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+				
+
+			</customand>	
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>			
+			
+		</for>
+	</skill>
+	
+	<skill id="10119" levels="1" name="Fortune Seeker">
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+		<!-- General -->
+			
+		<!-- PVP etc. -->
+			<customand olympiad="false">
+ 
+			</customand>
+			
+		<!-- Oly -->
+
+			<customand olympiad="true">
+				
+			</customand>
+			
+			
+		</for>
+	</skill>	
+</list>

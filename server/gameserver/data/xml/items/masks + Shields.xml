@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+
+	<item id="9613" type="Armor" name="Epic mask">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1320" />
+		<set name="price" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<for>
+		      <mul val='1.08' order='0x30' stat='pDef'/>
+		      <mul val='1.08' order='0x30' stat='mDef'/>
+		      <mul val='1.05' order='0x30' stat='mAtk'/>
+		      <mul val='1.05' order='0x30' stat='pAtk'/>
+		      <add val='10' order='0x40' stat='runSpd'/>
+		</for>
+	</item>
+
+
+	<item id="11128" type="Armor" name="dusk shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="armor_type" val="NONE" /> <!-- crystal_type  S -->
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1320" />
+		<set name="price" val="78400" />
+		<set name="is_oly_restricted" val="true" />
+		<for>
+			<add val="10" order="0x40" stat="pDef" /> 
+
+			<sub order="0x10" stat="rEvas" val="8" />	<!-- 3 -->
+			<set order="0x08" stat="rShld" val="20" />	<!-- 20 -->
+			<set order="0x08" stat="sDef" val="50" />	<!-- 100 -->
+
+			<mul order="0x30" stat="bowWpnVuln" val="0.95"/>
+		</for>
+	</item>
+	<item id="11129" type="Armor" name="reflect shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="armor_type" val="NONE" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1430" />
+		<set name="price" val="39" />
+		<set name="is_oly_restricted" val="true" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="5" />	<!-- 3 -->
+			<set order="0x08" stat="rShld" val="15" />	<!-- 10 -->
+			<set order="0x08" stat="sDef" val="200" />  	<!-- 30 -->
+			
+			
+   			<add order="0x40" stat="reflectSkillPhysic" val="15"/> <!-- 35 ,25-->
+  			<add order="0x40" stat="reflectSkillMagic" val="15"/> <!-- 35 ,25-->
+			<add order="0x40" stat="reflectDam" val="10"/>  <!-- 10 -->
+		</for>
+	</item>
+	<item id="11130" type="Armor" name="eva shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="armor_type" val="NONE" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1430" />
+		<set name="price" val="39" />
+		<set name="is_oly_restricted" val="true" />
+		<for>
+			<add val='10' order='0x40' stat='runSpd'/>	 <!-- 15 -->
+    			<set val='60' order='0x08' stat='sDef'/>	 <!-- 50 -->
+    			<set val='12' order='0x08' stat='rShld'/>	 <!-- 10 -->
+		</for>	
+	</item>
+
+</list>
+	

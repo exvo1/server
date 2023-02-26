@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+
+	<npc id="20560" name="Trisalim Spider" title="Level 52">
+		<set name="usingServerSideName" val="false"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="52"/>
+		<set name="radius" val="26"/>
+		<set name="height" val="25.5"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="3500"/>
+		<set name="sp" val="500"/>
+		<set name="hp" val="1183.80594"/>
+		<set name="mp" val="610.8"/>
+		<set name="hpRegen" val="5.5"/>
+		<set name="mpRegen" val="2.1"/>
+		<set name="pAtk" val="234.89829"/>
+		<set name="pDef" val="177.78746"/>
+		<set name="mAtk" val="160.40508"/>
+		<set name="mDef" val="118.372898457316"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="72"/>
+		<set name="runSpd" val="174"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="200" ssRate="5" spsCount="100" spsRate="10" aggro="0" canMove="true" seedable="true"/>
+		<drops>
+			<category id="0">
+				<drop itemid="57" min="384" max="780" chance="700000"/>
+			</category>
+
+		</drops>
+	</npc>
+
+
+	<npc id="20244" name="Malruk Succubus" title="Level 62">
+		<set name="usingServerSideName" val="false"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="62"/>
+		<set name="radius" val="10"/>
+		<set name="height" val="36"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="4800"/>
+		<set name="sp" val="450"/>
+		<set name="hp" val="1673.05473"/>
+		<set name="mp" val="889.8"/>
+		<set name="hpRegen" val="6.5"/>
+		<set name="mpRegen" val="2.4"/>
+		<set name="pAtk" val="388.11142"/>
+		<set name="pDef" val="223.6362"/>
+		<set name="mAtk" val="265.02979"/>
+		<set name="mDef" val="148.899508363765"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="60"/>
+		<set name="runSpd" val="174"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="10" spsCount="100" spsRate="5" aggro="0" canMove="true" seedable="true"/>
+
+		<drops>
+
+			<category id="0">
+				<drop itemid="57" min="584" max="1190" chance="700000"/>
+			</category>
+
+		</drops>
+	</npc>
+
+	<npc id="21108" name="Glow Wisp" title="Level 70">
+		<set name="usingServerSideName" val="false"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="70"/>
+		<set name="radius" val="13"/>
+		<set name="height" val="22"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="7500"/>
+		<set name="sp" val="700"/>
+		<set name="hp" val="2295.48154"/>
+		<set name="mp" val="1251"/>
+		<set name="hpRegen" val="7.5"/>
+		<set name="mpRegen" val="2.7"/>
+		<set name="pAtk" val="624.93199"/>
+		<set name="pDef" val="281.55251"/>
+		<set name="mAtk" val="426.74754"/>
+		<set name="mDef" val="187.460838840844"/>
+		<set name="crit" val="1"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="80"/>
+		<set name="runSpd" val="160"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="200" ssRate="5" spsCount="100" spsRate="10" aggro="0" canMove="true" seedable="true"/>
+
+		<drops>
+			<category id="0">
+				<drop itemid="57" min="890" max="1818" chance="700000"/>
+			</category>
+
+		</drops>
+	</npc>
+
+	<npc id="21402" name="Katraxis" title="Level 76">
+		<set name="usingServerSideName" val="false"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="76"/>
+		<set name="radius" val="24"/>
+		<set name="height" val="52.8"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="35000"/>
+		<set name="sp" val="3500"/>
+		<set name="hp" val="2870.7774087"/>
+		<set name="mp" val="1657.41"/>
+		<set name="hpRegen" val="8.585"/>
+		<set name="mpRegen" val="3.03"/>
+		<set name="pAtk" val="884.2525659"/>
+		<set name="pDef" val="340.4407808"/>
+		<set name="mAtk" val="609.868172336"/>
+		<set name="mDef" val="226.669315301277"/>
+		<set name="crit" val="8"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="37"/>
+		<set name="runSpd" val="165"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="true" seedable="true"/>
+
+		<drops>
+			<category id="0">
+				<drop itemid="57" min="4224" max="8620" chance="700000"/>
+			</category>
+
+		</drops>
+	</npc>
+
+</list>

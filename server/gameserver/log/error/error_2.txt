@@ -1,0 +1,13 @@
+апр. 22, 2022 8:23:11 AM net.sf.l2j.Config initProperties
+SEVERE: An error occured loading './config/aelia.properties' config.
+java.io.FileNotFoundException: .\config\aelia.properties (Не удается найти указанный файл)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at net.sf.l2j.commons.config.ExProperties.load(ExProperties.java:28)
+	at net.sf.l2j.Config.initProperties(Config.java:735)
+	at net.sf.l2j.Config.loadAelia(Config.java:53)
+	at net.sf.l2j.Config.loadGameServer(Config.java:1420)
+	at net.sf.l2j.gameserver.GameServer.<init>(GameServer.java:144)
+	at net.sf.l2j.gameserver.GameServer.main(GameServer.java:118)
+

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>	
+	<item id="15000" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15001" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15002" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15003" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15004" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15005" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15006" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15007" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15008" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15009" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15010" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15011" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15012" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15013" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15014" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15015" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15016" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15017" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15018" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15019" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15020" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15021" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15022" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15023" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15024" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15025" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15026" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15027" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+	<item id="15028" type="EtcItem" name="">
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Visual" />
+		<set name="price" val="0" />
+		<for>
+		</for>
+	</item>
+</list>
